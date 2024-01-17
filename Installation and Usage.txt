@@ -1,0 +1,15 @@
+﻿1. Download "Aspose.PDF for PHP via Java" and extract it, there's a folder named "aspose.pdf".
+
+2. Download PHP/Java Bridge binary (JavaBridge.jar) from http://php-java-bridge.sourceforge.net/pjb/download.php and save it into "aspose.pdf" folder.
+
+3. Download java/Java.inc PHP library (Java.inc) from http://php-java-bridge.sourceforge.net/pjb/download.php and save it into "aspose.pdf" folder.
+
+4. Install Oracle JDK and configure JAVA_HOME environment variable.
+
+5. Run JavaBridge.jar with below commands @ command prompt:
+> cd aspose.pdf
+> %JAVA_HOME%\bin\java -Djava.ext.dirs=lib -jar JavaBridge.jar SERVLET_LOCAL:8080
+
+6. Run example.php with below commands @ command prompt:
+> cd aspose.pdf
+> php example.php
