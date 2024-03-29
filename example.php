@@ -3,10 +3,10 @@
 require_once("Java.inc");
 require_once("lib/aspose.pdf.php");
 
-use aspose\pdf\License;
-use aspose\pdf\Document;
-use aspose\pdf\TextFragment;
-use aspose\pdf\BuildVersionInfo;
+use com\aspose\pdf\License;
+use com\aspose\pdf\Document;
+use com\aspose\pdf\TextFragment;
+use com\aspose\pdf\BuildVersionInfo;
 
 //uncomment block for licence initialization or use library in evaluation mode
 //$license = new License();
