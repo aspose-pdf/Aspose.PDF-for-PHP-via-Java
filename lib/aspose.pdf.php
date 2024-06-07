@@ -76,20 +76,11 @@ class AnnotationSelector extends Java {
 	}
 }
 class AnnotationState extends Java {
-    static private $_className = "com.aspose.pdf.php.AnnotationState";
-    static $Undefined = 0;
-    static $Unmarked = 2;
-    static $Completed = 6;
-    static $Rejected = 4;
-    static $Cancelled = 5;
-    static $Marked = 1;
-    static $None = 7;
-    static $Accepted = 3;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.AnnotationState";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class AnnotationStateModel extends Java {
 	static private $_className = "com.aspose.pdf.php.AnnotationStateModel";
 	function __construct(...$argv) {
@@ -126,20 +117,20 @@ class ApsToFlowConverter extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class ApsUsingConverter extends Java {
-	static private $_className = "com.aspose.pdf.php.ApsUsingConverter";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
-class ApsUsingConverter_ImportResourceLoader extends Java {
-	static private $_className = "com.aspose.pdf.php.ApsUsingConverter.ImportResourceLoader";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class Artifact extends Java {
 	static private $_className = "com.aspose.pdf.php.Artifact";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class Artifact_ArtifactType extends Java {
+	static private $_className = "com.aspose.pdf.php.Artifact\$ArtifactType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class Artifact_ArtifactSubtype extends Java {
+	static private $_className = "com.aspose.pdf.php.Artifact\$ArtifactSubtype";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -180,30 +171,18 @@ class BaseParagraph extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class BlendMode extends Java {
-    static private $_className = "com.aspose.pdf.php.BlendMode";
-    static $Screen = 2;
-    static $ColorDodge = 6;
-    static $Saturation = 13;
-    static $Color = 14;
-    static $Luminosity = 15;
-    static $Darken = 4;
-    static $Difference = 10;
-    static $Normal = 0;
-    static $SoftLight = 9;
-    static $Compatible = 16;
-    static $ColorBurn = 7;
-    static $Multiply = 1;
-    static $HardLight = 8;
-    static $Exclusion = 11;
-    static $Hue = 12;
-    static $Overlay = 3;
-    static $Lighten = 5;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+class BleedMarkAnnotation extends Java {
+	static private $_className = "com.aspose.pdf.php.BleedMarkAnnotation";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
+class BlendMode extends Java {
+	static private $_className = "com.aspose.pdf.php.BlendMode";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class Border extends Java {
 	static private $_className = "com.aspose.pdf.php.Border";
 	function __construct(...$argv) {
@@ -211,23 +190,17 @@ class Border extends Java {
 	}
 }
 class BorderCornerStyle extends Java {
-    static private $_className = "com.aspose.pdf.php.BorderCornerStyle";
-    static $Round = 1;
-    static $None = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.BorderCornerStyle";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class BorderEffect extends Java {
-    static private $_className = "com.aspose.pdf.php.BorderEffect";
-    static $None = 0;
-    static $Cloudy = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.BorderEffect";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class BorderInfo extends Java {
 	static private $_className = "com.aspose.pdf.php.BorderInfo";
 	function __construct(...$argv) {
@@ -249,17 +222,11 @@ class BorderSide extends Java {
 }
 
 class BorderStyle extends Java {
-    static private $_className = "com.aspose.pdf.php.BorderStyle";
-    static $Inset = 3;
-    static $Dashed = 1;
-    static $Underline = 4;
-    static $Beveled = 2;
-    static $Solid = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.BorderStyle";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class BorderStyleConverter extends Java {
 	static private $_className = "com.aspose.pdf.php.BorderStyleConverter";
 	function __construct(...$argv) {
@@ -267,18 +234,11 @@ class BorderStyleConverter extends Java {
 	}
 }
 class BoxStyle extends Java {
-    static private $_className = "com.aspose.pdf.php.BoxStyle";
-    static $Circle = 0;
-    static $Cross = 2;
-    static $Star = 5;
-    static $Check = 1;
-    static $Diamond = 3;
-    static $Square = 4;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.BoxStyle";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class Brush extends Java {
 	static private $_className = "com.aspose.pdf.php.Brush";
 	function __construct(...$argv) {
@@ -311,23 +271,17 @@ class ButtonField extends Java {
 	}
 }
 class CapStyle extends Java {
-    static private $_className = "com.aspose.pdf.php.CapStyle";
-    static $Rounded = 2;
-    static $Rectangular = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.CapStyle";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class CaptionPosition extends Java {
-    static private $_className = "com.aspose.pdf.php.CaptionPosition";
-    static $Top = 1;
-    static $Inline = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.CaptionPosition";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class CaretAnnotation extends Java {
 	static private $_className = "com.aspose.pdf.php.CaretAnnotation";
 	function __construct(...$argv) {
@@ -335,16 +289,25 @@ class CaretAnnotation extends Java {
 	}
 }
 class CaretSymbol extends Java {
-    static private $_className = "com.aspose.pdf.php.CaretSymbol";
-    static $None = 0;
-    static $Paragraph = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.CaretSymbol";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class CaretSymbolConverter extends Java {
 	static private $_className = "com.aspose.pdf.php.CaretSymbolConverter";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class cdr_CdrConverter extends Java {
+	static private $_className = "com.aspose.pdf.php.cdr.CdrConverter";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class CdrLoadOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.CdrLoadOptions";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -415,6 +378,47 @@ class Collection extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class CollectionField extends Java {
+	static private $_className = "com.aspose.pdf.php.CollectionField";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class CollectionFieldSubtype extends Java {
+    static private $_className = "com.aspose.pdf.php.CollectionFieldSubtype";
+    static $Desc = 5;
+    static $CreationDate = 7;
+    static $S = 1;
+    static $D = 2;
+    static $CompressedSize = 9;
+    static $F = 4;
+    static $Size = 8;
+    static $ModDate = 6;
+    static $None = 0;
+    static $N = 3;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class CollectionItem extends Java {
+	static private $_className = "com.aspose.pdf.php.CollectionItem";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class CollectionItem_Value extends Java {
+	static private $_className = "com.aspose.pdf.php.CollectionItem\$Value";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class CollectionSchema extends Java {
+	static private $_className = "com.aspose.pdf.php.CollectionSchema";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class Color extends Java {
     static private $_className = "com.aspose.pdf.php.Color";
     static $Empty;
@@ -431,47 +435,29 @@ class ColorBarAnnotation extends Java {
 	}
 }
 class ColorsOfCMYK extends Java {
-    static private $_className = "com.aspose.pdf.php.ColorsOfCMYK";
-    static $Cyan = 0;
-    static $Yellow = 2;
-    static $Magenta = 1;
-    static $Black = 3;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ColorsOfCMYK";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ColorSpace extends Java {
-    static private $_className = "com.aspose.pdf.php.ColorSpace";
-    static $DeviceGray = 2;
-    static $DeviceRGB = 0;
-    static $DeviceCMYK = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ColorSpace";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ColorType extends Java {
-    static private $_className = "com.aspose.pdf.php.ColorType";
-    static $Undefined = 3;
-    static $BlackAndWhite = 2;
-    static $Rgb = 0;
-    static $Grayscale = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ColorType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ColumnAdjustment extends Java {
-    static private $_className = "com.aspose.pdf.php.ColumnAdjustment";
-    static $AutoFitToContent = 1;
-    static $Customized = 0;
-    static $AutoFitToWindow = 2;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ColumnAdjustment";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ColumnInfo extends Java {
 	static private $_className = "com.aspose.pdf.php.ColumnInfo";
 	function __construct(...$argv) {
@@ -503,14 +489,11 @@ class CompositingParameters extends Java {
 	}
 }
 class ContentDisposition extends Java {
-    static private $_className = "com.aspose.pdf.php.ContentDisposition";
-    static $Attachment = 1;
-    static $Inline = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ContentDisposition";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ContentsAppender extends Java {
 	static private $_className = "com.aspose.pdf.php.ContentsAppender";
 	function __construct(...$argv) {
@@ -518,43 +501,37 @@ class ContentsAppender extends Java {
 	}
 }
 class ConvertErrorAction extends Java {
-    static private $_className = "com.aspose.pdf.php.ConvertErrorAction";
-    static $Delete = 0;
-    static $None = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ConvertErrorAction";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ConvertSoftMaskAction extends Java {
-    static private $_className = "com.aspose.pdf.php.ConvertSoftMaskAction";
-    static $Default = 0;
-    static $ConvertToStencilMask = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ConvertSoftMaskAction";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ConvertTransparencyAction extends Java {
-    static private $_className = "com.aspose.pdf.php.ConvertTransparencyAction";
-    static $Mask = 1;
-    static $Default = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ConvertTransparencyAction";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class CoordinateOrigin extends Java {
-    static private $_className = "com.aspose.pdf.php.CoordinateOrigin";
-    static $Descender = 1;
-    static $BaseLine = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.CoordinateOrigin";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class Copier extends Java {
 	static private $_className = "com.aspose.pdf.php.Copier";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class CornerPrinterMarkAnnotation extends Java {
+	static private $_className = "com.aspose.pdf.php.CornerPrinterMarkAnnotation";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -617,29 +594,17 @@ class devices_BmpDevice extends Java {
 	}
 }
 class devices_ColorDepth extends Java {
-    static private $_className = "com.aspose.pdf.php.devices.ColorDepth";
-    static $Format8bpp = 2;
-    static $Format4bpp = 3;
-    static $Format1bpp = 4;
-    static $Format24bpp = 1;
-    static $Default = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.devices.ColorDepth";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class devices_CompressionType extends Java {
-    static private $_className = "com.aspose.pdf.php.devices.CompressionType";
-    static $LZW = 0;
-    static $RLE = 3;
-    static $CCITT4 = 1;
-    static $CCITT3 = 2;
-    static $None = 4;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.devices.CompressionType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class devices_Device extends Java {
 	static private $_className = "com.aspose.pdf.php.devices.Device";
 	function __construct(...$argv) {
@@ -722,15 +687,11 @@ class devices_Resolution extends Java {
 	}
 }
 class devices_ShapeType extends Java {
-    static private $_className = "com.aspose.pdf.php.devices.ShapeType";
-    static $Landscape = 1;
-    static $Portrait = 2;
-    static $None = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.devices.ShapeType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class devices_TextDevice extends Java {
 	static private $_className = "com.aspose.pdf.php.devices.TextDevice";
 	function __construct(...$argv) {
@@ -756,7 +717,7 @@ class devices_TiffSettings extends Java {
 	}
 }
 class devices_TiffSettings_IndexedConversionType extends Java {
-    static private $_className = "com.aspose.pdf.php.devices.TiffSettings.IndexedConversionType";
+    static private $_className = "com.aspose.pdf.php.devices.TiffSettings\$IndexedConversionType";
     static $Pixelated = 1;
     static $Simple = 0;
     function __construct(...$argv) {
@@ -765,34 +726,35 @@ class devices_TiffSettings_IndexedConversionType extends Java {
 }
 
 class DigestHashAlgorithm extends Java {
-    static private $_className = "com.aspose.pdf.php.DigestHashAlgorithm";
-    static $Sha1 = 0;
-    static $Sha512 = 2;
-    static $Sha256 = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.DigestHashAlgorithm";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class Direction extends Java {
-    static private $_className = "com.aspose.pdf.php.Direction";
-    static $L2R = 0;
-    static $R2L = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.Direction";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
+class djvu_DjvuConverter extends Java {
+	static private $_className = "com.aspose.pdf.php.djvu.DjvuConverter";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class DjvuLoadOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.DjvuLoadOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class DocMDPAccessPermissions extends Java {
-    static private $_className = "com.aspose.pdf.php.DocMDPAccessPermissions";
-    static $AnnotationModification = 3;
-    static $FillingInForms = 2;
-    static $NoChanges = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.DocMDPAccessPermissions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class DocMDPSignature extends Java {
 	static private $_className = "com.aspose.pdf.php.DocMDPSignature";
 	function __construct(...$argv) {
@@ -806,44 +768,49 @@ class DocSaveOptions extends Java {
 	}
 }
 class DocSaveOptions_RecognitionMode extends Java {
-    static private $_className = "com.aspose.pdf.php.DocSaveOptions.RecognitionMode";
-    static $EnhancedFlow = 2;
-    static $Textbox = 0;
-    static $Flow = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.DocSaveOptions\$RecognitionMode";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class DocSaveOptions_DocFormat extends Java {
-    static private $_className = "com.aspose.pdf.php.DocSaveOptions.DocFormat";
-    static $DocX = 1;
-    static $Doc = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.DocSaveOptions\$DocFormat";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class Document extends Java {
 	static private $_className = "com.aspose.pdf.php.Document";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class Document_CallBackGetHocrBase extends Java {
+	static private $_className = "com.aspose.pdf.php.Document\$CallBackGetHocrBase";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class Document_CallBackGetHocr extends Java {
-	static private $_className = "com.aspose.pdf.php.Document.CallBackGetHocr";
+	static private $_className = "com.aspose.pdf.php.Document\$CallBackGetHocr";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class Document_CallBackGetHocrWithPage extends Java {
+	static private $_className = "com.aspose.pdf.php.Document\$CallBackGetHocrWithPage";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class Document_OptimizationOptions extends Java {
-	static private $_className = "com.aspose.pdf.php.Document.OptimizationOptions";
+	static private $_className = "com.aspose.pdf.php.Document\$OptimizationOptions";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class Document_IDocumentFontUtilities extends Java {
-	static private $_className = "com.aspose.pdf.php.Document.IDocumentFontUtilities";
+	static private $_className = "com.aspose.pdf.php.Document\$IDocumentFontUtilities";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -981,15 +948,11 @@ class EpubSaveOptions extends Java {
 	}
 }
 class EpubSaveOptions_RecognitionMode extends Java {
-    static private $_className = "com.aspose.pdf.php.EpubSaveOptions.RecognitionMode";
-    static $PdfFlow = 1;
-    static $Flow = 0;
-    static $Fixed = 2;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.EpubSaveOptions\$RecognitionMode";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ExcelSaveOptions extends Java {
 	static private $_className = "com.aspose.pdf.php.ExcelSaveOptions";
 	function __construct(...$argv) {
@@ -997,17 +960,11 @@ class ExcelSaveOptions extends Java {
 	}
 }
 class ExcelSaveOptions_ExcelFormat extends Java {
-    static private $_className = "com.aspose.pdf.php.ExcelSaveOptions.ExcelFormat";
-    static $XLSX = 1;
-    static $XMLSpreadSheet2003 = 0;
-    static $CSV = 2;
-    static $XLSM = 3;
-    static $ODS = 4;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ExcelSaveOptions\$ExcelFormat";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class exceptions_ArgumentException extends Java {
 	static private $_className = "com.aspose.pdf.php.exceptions.ArgumentException";
 	function __construct(...$argv) {
@@ -1200,20 +1157,11 @@ class ExplicitDestination extends Java {
 	}
 }
 class ExplicitDestinationType extends Java {
-    static private $_className = "com.aspose.pdf.php.ExplicitDestinationType";
-    static $Fit = 1;
-    static $FitR = 4;
-    static $FitB = 5;
-    static $FitV = 3;
-    static $FitH = 2;
-    static $XYZ = 0;
-    static $FitBH = 6;
-    static $FitBV = 7;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ExplicitDestinationType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ExplicitDestinationTypeConverter extends Java {
 	static private $_className = "com.aspose.pdf.php.ExplicitDestinationTypeConverter";
 	function __construct(...$argv) {
@@ -1221,15 +1169,11 @@ class ExplicitDestinationTypeConverter extends Java {
 	}
 }
 class ExtendedBoolean extends Java {
-    static private $_className = "com.aspose.pdf.php.ExtendedBoolean";
-    static $Undefined = 0;
-    static $True = 2;
-    static $False = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ExtendedBoolean";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ExternalSignature extends Java {
 	static private $_className = "com.aspose.pdf.php.ExternalSignature";
 	function __construct(...$argv) {
@@ -1237,14 +1181,11 @@ class ExternalSignature extends Java {
 	}
 }
 class ExtractImageMode extends Java {
-    static private $_className = "com.aspose.pdf.php.ExtractImageMode";
-    static $ActuallyUsed = 1;
-    static $DefinedInResources = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ExtractImageMode";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class facades_Algorithm extends Java {
 	static private $_className = "com.aspose.pdf.php.facades.Algorithm";
 	function __construct(...$argv) {
@@ -1303,19 +1244,6 @@ class facades_CgmPdfProducer extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class facades_CustomPrintEventArgs extends Java {
-    static private $_className = "com.aspose.pdf.php.facades.CustomPrintEventArgs";
-    static $PrinterSettings;
-    static $PageSettings;
-    static $FileName;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-        self::$PrinterSettings = Java(self::$_className)->PrinterSettings;
-        self::$PageSettings = Java(self::$_className)->PageSettings;
-        self::$FileName = Java(self::$_className)->FileName;
-    }
-}
-
 class facades_DataType extends Java {
     static private $_className = "com.aspose.pdf.php.facades.DataType";
     static $ODBC = 5;
@@ -1396,7 +1324,7 @@ class facades_Form extends Java {
 	}
 }
 class facades_Form_ImportStatus extends Java {
-    static private $_className = "com.aspose.pdf.php.facades.Form.ImportStatus";
+    static private $_className = "com.aspose.pdf.php.facades.Form\$ImportStatus";
     static $FieldNotFound = 1;
     static $Success = 0;
     function __construct(...$argv) {
@@ -1499,13 +1427,13 @@ class facades_IPdfFileEditor extends Java {
 	}
 }
 class facades_IPdfFileEditor_ContentsResizeValue extends Java {
-	static private $_className = "com.aspose.pdf.php.facades.IPdfFileEditor.ContentsResizeValue";
+	static private $_className = "com.aspose.pdf.php.facades.IPdfFileEditor\$ContentsResizeValue";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class facades_IPdfFileEditor_ContentsResizeParameters extends Java {
-	static private $_className = "com.aspose.pdf.php.facades.IPdfFileEditor.ContentsResizeParameters";
+	static private $_className = "com.aspose.pdf.php.facades.IPdfFileEditor\$ContentsResizeParameters";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1584,25 +1512,25 @@ class facades_PdfFileEditor extends Java {
 	}
 }
 class facades_PdfFileEditor_ConcatenationProgressHandler extends Java {
-	static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor.ConcatenationProgressHandler";
+	static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor\$ConcatenationProgressHandler";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class facades_PdfFileEditor_ProgressEventHandlerInfo extends Java {
-	static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor.ProgressEventHandlerInfo";
+	static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor\$ProgressEventHandlerInfo";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class facades_PdfFileEditor_PageBreak extends Java {
-	static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor.PageBreak";
+	static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor\$PageBreak";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class facades_PdfFileEditor_ProgressEventType extends Java {
-    static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor.ProgressEventType";
+    static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor\$ProgressEventType";
     static $DocumentJavaScript = 6;
     static $AllPagesCopied = 8;
     static $PageConcatenated = 0;
@@ -1619,7 +1547,7 @@ class facades_PdfFileEditor_ProgressEventType extends Java {
 }
 
 class facades_PdfFileEditor_ConcatenateCorruptedFileAction extends Java {
-    static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor.ConcatenateCorruptedFileAction";
+    static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor\$ConcatenateCorruptedFileAction";
     static $ConcatenateIgnoringCorrupted = 1;
     static $ConcatenateIgnoringCorruptedObjects = 2;
     static $StopWithError = 0;
@@ -1629,7 +1557,7 @@ class facades_PdfFileEditor_ConcatenateCorruptedFileAction extends Java {
 }
 
 class facades_PdfFileEditor_CorruptedItem extends Java {
-	static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor.CorruptedItem";
+	static private $_className = "com.aspose.pdf.php.facades.PdfFileEditor\$CorruptedItem";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -1793,6 +1721,18 @@ class facades_ReplaceTextStrategy extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class facades_ReplaceTextStrategy_Scope extends Java {
+	static private $_className = "com.aspose.pdf.php.facades.ReplaceTextStrategy\$Scope";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class facades_ReplaceTextStrategy_NoCharacterAction extends Java {
+	static private $_className = "com.aspose.pdf.php.facades.ReplaceTextStrategy\$NoCharacterAction";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class facades_SaveableFacade extends Java {
 	static private $_className = "com.aspose.pdf.php.facades.SaveableFacade";
 	function __construct(...$argv) {
@@ -1867,6 +1807,7 @@ class facades_ViewerPreference extends Java {
     static $PAGE_MODE_USE_ATTACHMENT = 2097152;
     static $FIT_WINDOW = 2048;
     static $DIRECTION_R_2_L = 131072;
+    static $PICK_TRAY_BY_PDF_SIZE;
     static $PAGE_MODE_USE_THUMBS = 64;
     static $HIDE_WINDOW_UI = 1024;
     static $NON_FULL_SCREEN_PAGE_MODE_USE_NONE = 8192;
@@ -1875,6 +1816,7 @@ class facades_ViewerPreference extends Java {
         parent::__construct(self::$_className, ...$argv);
         self::$PRINT_SCALING_APP_DEFAULT = Java(self::$_className)->PRINT_SCALING_APP_DEFAULT;
         self::$PRINT_SCALING_NONE = Java(self::$_className)->PRINT_SCALING_NONE;
+        self::$PICK_TRAY_BY_PDF_SIZE = Java(self::$_className)->PICK_TRAY_BY_PDF_SIZE;
     }
 }
 
@@ -1887,6 +1829,12 @@ class facades_WordWrapMode extends Java {
     }
 }
 
+class FdfReader extends Java {
+	static private $_className = "com.aspose.pdf.php.FdfReader";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class Field extends Java {
     static private $_className = "com.aspose.pdf.php.Field";
     static $_Password;
@@ -1895,6 +1843,17 @@ class Field extends Java {
         parent::__construct(self::$_className, ...$argv);
         self::$_Password = Java(self::$_className)->_Password;
         self::$_FileSelect = Java(self::$_className)->_FileSelect;
+    }
+}
+
+class FieldValueType extends Java {
+    static private $_className = "com.aspose.pdf.php.FieldValueType";
+    static $Number = 2;
+    static $Text = 1;
+    static $None = 0;
+    static $Date = 3;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
     }
 }
 
@@ -1911,14 +1870,11 @@ class FileAttachmentAnnotation extends Java {
 	}
 }
 class FileEncoding extends Java {
-    static private $_className = "com.aspose.pdf.php.FileEncoding";
-    static $Zip = 1;
-    static $None = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.FileEncoding";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class FileFontSource extends Java {
 	static private $_className = "com.aspose.pdf.php.FileFontSource";
 	function __construct(...$argv) {
@@ -1932,16 +1888,11 @@ class FileHyperlink extends Java {
 	}
 }
 class FileIcon extends Java {
-    static private $_className = "com.aspose.pdf.php.FileIcon";
-    static $Paperclip = 2;
-    static $Graph = 1;
-    static $PushPin = 0;
-    static $Tag = 3;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.FileIcon";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class FileIconConverter extends Java {
 	static private $_className = "com.aspose.pdf.php.FileIconConverter";
 	function __construct(...$argv) {
@@ -2015,18 +1966,11 @@ class FixedPrint extends Java {
 	}
 }
 class Fixup extends Java {
-    static private $_className = "com.aspose.pdf.php.Fixup";
-    static $ConvertAllPagesIntoCMYKImagesAndPreserveTextInformation = 0;
-    static $EmbedMissingFonts = 3;
-    static $RotatePagesToPortrait = 5;
-    static $DerivePageGeometryBoxesFromCropMarks = 2;
-    static $ConvertFontsToOutlines = 1;
-    static $RotatePagesToLandscape = 4;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.Fixup";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class FloatingBox extends Java {
 	static private $_className = "com.aspose.pdf.php.FloatingBox";
 	function __construct(...$argv) {
@@ -2116,13 +2060,13 @@ class Form extends Java {
 	}
 }
 class Form_FlattenSettings extends Java {
-	static private $_className = "com.aspose.pdf.php.Form.FlattenSettings";
+	static private $_className = "com.aspose.pdf.php.Form\$FlattenSettings";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class Form_SignDependentElementsRenderingModes extends Java {
-    static private $_className = "com.aspose.pdf.php.Form.SignDependentElementsRenderingModes";
+    static private $_className = "com.aspose.pdf.php.Form\$SignDependentElementsRenderingModes";
     static $RenderFormAsUnsigned = 0;
     static $RenderFormAsSigned = 1;
     function __construct(...$argv) {
@@ -2149,15 +2093,11 @@ class FreeTextAnnotation extends Java {
 	}
 }
 class FreeTextIntent extends Java {
-    static private $_className = "com.aspose.pdf.php.FreeTextIntent";
-    static $FreeTextCallout = 1;
-    static $Undefined = 0;
-    static $FreeTextTypeWriter = 2;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.FreeTextIntent";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class GoToAction extends Java {
 	static private $_className = "com.aspose.pdf.php.GoToAction";
 	function __construct(...$argv) {
@@ -2274,7 +2214,7 @@ class groupprocessor_internal_Constants extends Java {
 }
 
 class groupprocessor_internal_Constants_Filters extends Java {
-    static private $_className = "com.aspose.pdf.php.groupprocessor.internal.Constants.Filters";
+    static private $_className = "com.aspose.pdf.php.groupprocessor.internal.Constants\$Filters";
     static $RUN_LENGTH_DECODE;
     static $ASCII_HEX_DECODE;
     static $ASCII_85_DECODE;
@@ -2448,17 +2388,11 @@ class HighlightAnnotation extends Java {
 	}
 }
 class HighlightingMode extends Java {
-    static private $_className = "com.aspose.pdf.php.HighlightingMode";
-    static $Invert = 1;
-    static $Toggle = 4;
-    static $Outline = 2;
-    static $Push = 3;
-    static $None = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.HighlightingMode";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class HorizontalAlignment extends Java {
 	static private $_className = "com.aspose.pdf.php.HorizontalAlignment";
 	function __construct(...$argv) {
@@ -2466,14 +2400,11 @@ class HorizontalAlignment extends Java {
 	}
 }
 class HtmlDocumentType extends Java {
-    static private $_className = "com.aspose.pdf.php.HtmlDocumentType";
-    static $Html5 = 1;
-    static $Xhtml = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.HtmlDocumentType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class HtmlFragment extends Java {
 	static private $_className = "com.aspose.pdf.php.HtmlFragment";
 	function __construct(...$argv) {
@@ -2487,14 +2418,11 @@ class HtmlLoadOptions extends Java {
 	}
 }
 class HtmlMediaType extends Java {
-    static private $_className = "com.aspose.pdf.php.HtmlMediaType";
-    static $Print = 0;
-    static $Screen = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.HtmlMediaType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class HtmlPageLayoutOption extends Java {
     static private $_className = "com.aspose.pdf.php.HtmlPageLayoutOption";
     static $FitToWidestContentWidth;
@@ -2513,7 +2441,7 @@ class HtmlSaveOptions extends Java {
 	}
 }
 class HtmlSaveOptions_FontSavingModes extends Java {
-    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.FontSavingModes";
+    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$FontSavingModes";
     static $AlwaysSaveAsTTF = 1;
     static $AlwaysSaveAsEOT = 2;
     static $AlwaysSaveAsWOFF = 0;
@@ -2525,7 +2453,7 @@ class HtmlSaveOptions_FontSavingModes extends Java {
 }
 
 class HtmlSaveOptions_AntialiasingProcessingType extends Java {
-    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.AntialiasingProcessingType";
+    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$AntialiasingProcessingType";
     static $TryCorrectResultHtml = 1;
     static $NoAdditionalProcessing = 0;
     function __construct(...$argv) {
@@ -2534,55 +2462,55 @@ class HtmlSaveOptions_AntialiasingProcessingType extends Java {
 }
 
 class HtmlSaveOptions_CssSavingInfo extends Java {
-	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.CssSavingInfo";
+	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$CssSavingInfo";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class HtmlSaveOptions_HtmlPageMarkupSavingInfo extends Java {
-	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.HtmlPageMarkupSavingInfo";
+	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$HtmlPageMarkupSavingInfo";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class HtmlSaveOptions_CssUrlRequestInfo extends Java {
-	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.CssUrlRequestInfo";
+	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$CssUrlRequestInfo";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class HtmlSaveOptions_HtmlImageSavingInfo extends Java {
-	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.HtmlImageSavingInfo";
+	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$HtmlImageSavingInfo";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class HtmlSaveOptions_ResourceSavingStrategy extends Java {
-	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.ResourceSavingStrategy";
+	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$ResourceSavingStrategy";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class HtmlSaveOptions_HtmlPageMarkupSavingStrategy extends Java {
-	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.HtmlPageMarkupSavingStrategy";
+	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$HtmlPageMarkupSavingStrategy";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class HtmlSaveOptions_CssSavingStrategy extends Java {
-	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.CssSavingStrategy";
+	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$CssSavingStrategy";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class HtmlSaveOptions_CssUrlMakingStrategy extends Java {
-	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.CssUrlMakingStrategy";
+	static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$CssUrlMakingStrategy";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class HtmlSaveOptions_HtmlImageType extends Java {
-    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.HtmlImageType";
+    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$HtmlImageType";
     static $Tiff = 4;
     static $Bmp = 2;
     static $Unknown = 7;
@@ -2597,7 +2525,7 @@ class HtmlSaveOptions_HtmlImageType extends Java {
 }
 
 class HtmlSaveOptions_ImageParentTypes extends Java {
-    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.ImageParentTypes";
+    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$ImageParentTypes";
     static $HtmlPage = 0;
     static $SvgImage = 1;
     function __construct(...$argv) {
@@ -2606,7 +2534,7 @@ class HtmlSaveOptions_ImageParentTypes extends Java {
 }
 
 class HtmlSaveOptions_RasterImagesSavingModes extends Java {
-    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.RasterImagesSavingModes";
+    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$RasterImagesSavingModes";
     static $AsEmbeddedPartsOfPngPageBackground = 2;
     static $AsPngImagesEmbeddedIntoSvg = 0;
     static $AsExternalPngFilesReferencedViaSvg = 1;
@@ -2616,7 +2544,7 @@ class HtmlSaveOptions_RasterImagesSavingModes extends Java {
 }
 
 class HtmlSaveOptions_HtmlMarkupGenerationModes extends Java {
-    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.HtmlMarkupGenerationModes";
+    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$HtmlMarkupGenerationModes";
     static $WriteAllHtml = 0;
     static $WriteOnlyBodyContent = 1;
     function __construct(...$argv) {
@@ -2625,7 +2553,7 @@ class HtmlSaveOptions_HtmlMarkupGenerationModes extends Java {
 }
 
 class HtmlSaveOptions_PartsEmbeddingModes extends Java {
-    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.PartsEmbeddingModes";
+    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$PartsEmbeddingModes";
     static $NoEmbedding = 2;
     static $EmbedAllIntoHtml = 0;
     static $EmbedCssOnly = 1;
@@ -2635,7 +2563,7 @@ class HtmlSaveOptions_PartsEmbeddingModes extends Java {
 }
 
 class HtmlSaveOptions_FontEncodingRules extends Java {
-    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions.FontEncodingRules";
+    static private $_className = "com.aspose.pdf.php.HtmlSaveOptions\$FontEncodingRules";
     static $DecreaseToUnicodePriorityLevel = 1;
     static $Default = 0;
     function __construct(...$argv) {
@@ -2668,19 +2596,11 @@ class IColorSpaceConversionStrategy extends Java {
 	}
 }
 class IconCaptionPosition extends Java {
-    static private $_className = "com.aspose.pdf.php.IconCaptionPosition";
-    static $NoCaption = 1;
-    static $CaptionAboveIcon = 3;
-    static $NoIcon = 0;
-    static $CaptionToTheRight = 4;
-    static $CaptionBelowIcon = 2;
-    static $CaptionOverlaid = 6;
-    static $CaptionToTheLeft = 5;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.IconCaptionPosition";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class IconFit extends Java {
 	static private $_className = "com.aspose.pdf.php.IconFit";
 	function __construct(...$argv) {
@@ -2741,44 +2661,23 @@ class ImageDeleteAction extends Java {
 }
 
 class ImageFileType extends Java {
-    static private $_className = "com.aspose.pdf.php.ImageFileType";
-    static $Dicom = 2;
-    static $Base64 = 3;
-    static $Unknown = 0;
-    static $Svg = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ImageFileType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ImageFilterType extends Java {
-    static private $_className = "com.aspose.pdf.php.ImageFilterType";
-    static $Flate = 2;
-    static $Jpeg2000 = 0;
-    static $Jpeg = 1;
-    static $CCITTFax = 3;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ImageFilterType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ImageFormat extends Java {
-    static private $_className = "com.aspose.pdf.php.ImageFormat";
-    static $Wmf = 8;
-    static $Exif = 9;
-    static $Tiff = 4;
-    static $Dicom = 6;
-    static $Bmp = 0;
-    static $Gif = 2;
-    static $Png = 3;
-    static $Jpeg = 1;
-    static $Emf = 5;
-    static $MemoryBmp = 7;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ImageFormat";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ImagePlacement extends Java {
 	static private $_className = "com.aspose.pdf.php.ImagePlacement";
 	function __construct(...$argv) {
@@ -2816,13 +2715,11 @@ class ImportDataAction extends Java {
 	}
 }
 class ImportFormat extends Java {
-    static private $_className = "com.aspose.pdf.php.ImportFormat";
-    static $Cgm = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ImportFormat";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class ImportOptions extends Java {
 	static private $_className = "com.aspose.pdf.php.ImportOptions";
 	function __construct(...$argv) {
@@ -2884,15 +2781,11 @@ class JavaScriptCollection extends Java {
 	}
 }
 class Justification extends Java {
-    static private $_className = "com.aspose.pdf.php.Justification";
-    static $Center = 1;
-    static $Left = 0;
-    static $Right = 2;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.Justification";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class LatexFragment extends Java {
 	static private $_className = "com.aspose.pdf.php.LatexFragment";
 	function __construct(...$argv) {
@@ -2918,15 +2811,11 @@ class LaunchAction extends Java {
 	}
 }
 class LaunchActionOperation extends Java {
-    static private $_className = "com.aspose.pdf.php.LaunchActionOperation";
-    static $Undefined = 0;
-    static $Print = 2;
-    static $Open = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.LaunchActionOperation";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class Layer extends Java {
 	static private $_className = "com.aspose.pdf.php.Layer";
 	function __construct(...$argv) {
@@ -2934,14 +2823,11 @@ class Layer extends Java {
 	}
 }
 class LettersPositioningMethods extends Java {
-    static private $_className = "com.aspose.pdf.php.LettersPositioningMethods";
-    static $UseEmUnitsAndCompensationOfRoundingErrorsInCss = 0;
-    static $UsePixelUnitsInCssLetterSpacingForIE = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.LettersPositioningMethods";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class LevelFormat extends Java {
 	static private $_className = "com.aspose.pdf.php.LevelFormat";
 	function __construct(...$argv) {
@@ -2955,24 +2841,11 @@ class License extends Java {
 	}
 }
 class LightingSchemeType extends Java {
-    static private $_className = "com.aspose.pdf.php.LightingSchemeType";
-    static $Red = 8;
-    static $Artwork = 0;
-    static $White = 2;
-    static $Night = 4;
-    static $Blue = 7;
-    static $Cube = 9;
-    static $Primary = 6;
-    static $CAD = 10;
-    static $Hard = 5;
-    static $Headlamp = 11;
-    static $None = 1;
-    static $Day = 3;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.LightingSchemeType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class LightweightOperatorCollection extends Java {
 	static private $_className = "com.aspose.pdf.php.LightweightOperatorCollection";
 	function __construct(...$argv) {
@@ -2986,22 +2859,11 @@ class LineAnnotation extends Java {
 	}
 }
 class LineEnding extends Java {
-    static private $_className = "com.aspose.pdf.php.LineEnding";
-    static $ClosedArrow = 5;
-    static $Circle = 2;
-    static $ROpenArrow = 7;
-    static $Slash = 9;
-    static $Diamond = 3;
-    static $OpenArrow = 4;
-    static $Square = 1;
-    static $Butt = 6;
-    static $None = 0;
-    static $RClosedArrow = 8;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.LineEnding";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class LineEndingConverter extends Java {
 	static private $_className = "com.aspose.pdf.php.LineEndingConverter";
 	function __construct(...$argv) {
@@ -3015,15 +2877,11 @@ class LineEndingsDrawer extends Java {
 	}
 }
 class LineIntent extends Java {
-    static private $_className = "com.aspose.pdf.php.LineIntent";
-    static $Undefined = 0;
-    static $LineArrow = 1;
-    static $LineDimension = 2;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.LineIntent";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class LinkAnnotation extends Java {
 	static private $_className = "com.aspose.pdf.php.LinkAnnotation";
 	function __construct(...$argv) {
@@ -3049,7 +2907,7 @@ class LoadOptions extends Java {
 	}
 }
 class LoadOptions_MarginsAreaUsageModes extends Java {
-    static private $_className = "com.aspose.pdf.php.LoadOptions.MarginsAreaUsageModes";
+    static private $_className = "com.aspose.pdf.php.LoadOptions\$MarginsAreaUsageModes";
     static $PutContentOnMarginAreaIfNecessary = 0;
     static $NeverPutContentOnMarginArea = 1;
     function __construct(...$argv) {
@@ -3058,7 +2916,7 @@ class LoadOptions_MarginsAreaUsageModes extends Java {
 }
 
 class LoadOptions_PageSizeAdjustmentModes extends Java {
-    static private $_className = "com.aspose.pdf.php.LoadOptions.PageSizeAdjustmentModes";
+    static private $_className = "com.aspose.pdf.php.LoadOptions\$PageSizeAdjustmentModes";
     static $EnlargeRequiredViewportWidthAndDoConversionAgain = 1;
     static $NoAjustmentAllwaysUsePredefinedSize = 0;
     function __construct(...$argv) {
@@ -3067,13 +2925,13 @@ class LoadOptions_PageSizeAdjustmentModes extends Java {
 }
 
 class LoadOptions_ResourceLoadingResult extends Java {
-	static private $_className = "com.aspose.pdf.php.LoadOptions.ResourceLoadingResult";
+	static private $_className = "com.aspose.pdf.php.LoadOptions\$ResourceLoadingResult";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class LoadOptions_ResourceLoadingStrategy extends Java {
-	static private $_className = "com.aspose.pdf.php.LoadOptions.ResourceLoadingStrategy";
+	static private $_className = "com.aspose.pdf.php.LoadOptions\$ResourceLoadingStrategy";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3092,6 +2950,57 @@ class LocalHyperlink extends Java {
 }
 class MarginInfo extends Java {
 	static private $_className = "com.aspose.pdf.php.MarginInfo";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class markdownoptions_EmphasisStyle extends Java {
+    static private $_className = "com.aspose.pdf.php.markdownoptions.EmphasisStyle";
+    static $Underscore = 1;
+    static $Asterisk = 0;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class markdownoptions_HeadingLevels extends Java {
+	static private $_className = "com.aspose.pdf.php.markdownoptions.HeadingLevels";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class markdownoptions_HeadingRecognitionStrategy extends Java {
+    static private $_className = "com.aspose.pdf.php.markdownoptions.HeadingRecognitionStrategy";
+    static $Auto = 2;
+    static $Outlines = 0;
+    static $None = 3;
+    static $Heuristic = 1;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class markdownoptions_HeadingStyle extends Java {
+    static private $_className = "com.aspose.pdf.php.markdownoptions.HeadingStyle";
+    static $Atx = 0;
+    static $Setext = 1;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class markdownoptions_LineBreakStyle extends Java {
+    static private $_className = "com.aspose.pdf.php.markdownoptions.LineBreakStyle";
+    static $Unix = 1;
+    static $Auto = 2;
+    static $Windows = 0;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class markdownoptions_MarkdownSaveOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.markdownoptions.MarkdownSaveOptions";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3139,24 +3048,13 @@ class Measure extends Java {
 	}
 }
 class Measure_NumberFormat extends Java {
-	static private $_className = "com.aspose.pdf.php.Measure.NumberFormat";
+	static private $_className = "com.aspose.pdf.php.Measure\$NumberFormat";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class Measure_NumberFormat_FractionStyle extends Java {
-    static private $_className = "com.aspose.pdf.php.Measure.NumberFormat.FractionStyle";
-    static $ShowAsDecimal = 0;
-    static $ShowAsFraction = 1;
-    static $Round = 2;
-    static $Truncate = 3;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
-}
-
 class Measure_NumberFormatList extends Java {
-	static private $_className = "com.aspose.pdf.php.Measure.NumberFormatList";
+	static private $_className = "com.aspose.pdf.php.Measure\$NumberFormatList";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3198,7 +3096,7 @@ class MemoryExtender extends Java {
 	}
 }
 class MemoryExtender_CallBackPageImage extends Java {
-	static private $_className = "com.aspose.pdf.php.MemoryExtender.CallBackPageImage";
+	static private $_className = "com.aspose.pdf.php.MemoryExtender\$CallBackPageImage";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3294,18 +3192,11 @@ class NumberField extends Java {
 	}
 }
 class NumberingStyle extends Java {
-    static private $_className = "com.aspose.pdf.php.NumberingStyle";
-    static $NumeralsArabic = 0;
-    static $LettersLowercase = 4;
-    static $NumeralsRomanUppercase = 1;
-    static $NumeralsRomanLowercase = 2;
-    static $LettersUppercase = 3;
-    static $None = 5;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.NumberingStyle";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class NumberTree extends Java {
 	static private $_className = "com.aspose.pdf.php.NumberTree";
 	function __construct(...$argv) {
@@ -3314,6 +3205,2015 @@ class NumberTree extends Java {
 }
 class OcspSettings extends Java {
 	static private $_className = "com.aspose.pdf.php.OcspSettings";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_common_Box extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.common.Box";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_common_CommonUtils extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.common.CommonUtils";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_common_CTM extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.common.CTM";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_converters_DocBodyConverter extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.converters.DocBodyConverter";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_converters_OfdConverter extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.converters.OfdConverter";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_annotation_OfdAnnotationAppearance extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.annotation.OfdAnnotationAppearance";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_annotation_OfdAnnotationType extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.models.annotation.OfdAnnotationType";
+    static $Path = 1;
+    static $Highlight = 2;
+    static $Stamp = 3;
+    static $Watermark = 4;
+    static $Link = 0;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class ofd_models_annotation_OfdPageAnnotation extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.annotation.OfdPageAnnotation";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_annotation_OfdPageAnnotations extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.annotation.OfdPageAnnotations";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_annotations_OfdAnnotationsCollection extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.annotations.OfdAnnotationsCollection";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_annotations_OfdAnnotationsPage extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.annotations.OfdAnnotationsPage";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_actions_OfdActionEvent extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.models.common.actions.OfdActionEvent";
+    static $Click = 2;
+    static $Do = 0;
+    static $Po = 1;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class ofd_models_common_actions_OfdActionGoto extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.actions.OfdActionGoto";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_actions_OfdActionGotoA extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.actions.OfdActionGotoA";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_actions_OfdActionMovie extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.actions.OfdActionMovie";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_actions_OfdActionSound extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.actions.OfdActionSound";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_actions_OfdActionURI extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.actions.OfdActionURI";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_OfdAction extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.OfdAction";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_OfdColor extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.OfdColor";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_OfdColorSpace extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.OfdColorSpace";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_OfdDestination extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.OfdDestination";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_OfdDrawParam extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.OfdDrawParam";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_OfdFont extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.OfdFont";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_OfdFontCharset extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.models.common.OfdFontCharset";
+    static $Prc = 1;
+    static $Unicode = 6;
+    static $Johab = 5;
+    static $Symbol = 0;
+    static $Wansung = 4;
+    static $Big5 = 2;
+    static $ShiftJis = 3;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class ofd_models_common_OfdMultiMedia extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.OfdMultiMedia";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_OfdMultiMediaType extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.models.common.OfdMultiMediaType";
+    static $Video = 2;
+    static $Image = 0;
+    static $Audio = 1;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class ofd_models_common_regionareas_OfdArc extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.regionareas.OfdArc";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_regionareas_OfdCubicBezier extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.regionareas.OfdCubicBezier";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_regionareas_OfdLine extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.regionareas.OfdLine";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_regionareas_OfdMove extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.regionareas.OfdMove";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_regionareas_OfdQuadraticBezier extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.regionareas.OfdQuadraticBezier";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_shading_OfdAxial extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.shading.OfdAxial";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_shading_OfdGouraud extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.shading.OfdGouraud";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_shading_OfdLaGouraud extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.shading.OfdLaGouraud";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_shading_OfdPattern extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.shading.OfdPattern";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_common_shading_OfdRadial extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.common.shading.OfdRadial";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_documents_OfdCommonData extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.documents.OfdCommonData";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_documents_OfdDocBody extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.documents.OfdDocBody";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_documents_OfdDocumentPageRef extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.documents.OfdDocumentPageRef";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_documents_OfdTemplatePageRef extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.documents.OfdTemplatePageRef";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_ofd_OfdDocBodyRef extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.ofd.OfdDocBodyRef";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_ofd_OfdRoot extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.ofd.OfdRoot";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_blocks_OfdCompositeObject extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.blocks.OfdCompositeObject";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_blocks_OfdContentLayer extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.blocks.OfdContentLayer";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_blocks_OfdImageObject extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.blocks.OfdImageObject";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_blocks_OfdPageBlockObject extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.blocks.OfdPageBlockObject";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_blocks_OfdPathObject extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.blocks.OfdPathObject";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_blocks_OfdTextObject extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.blocks.OfdTextObject";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_graphics_OfdComposite extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.graphics.OfdComposite";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_graphics_OfdImage extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.graphics.OfdImage";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_graphics_OfdPath extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.graphics.OfdPath";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_graphics_OfdText extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.graphics.OfdText";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_graphics_OfdUnit extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.graphics.OfdUnit";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_graphics_OfdUnitCap extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.models.pages.graphics.OfdUnitCap";
+    static $Round = 1;
+    static $Butt = 0;
+    static $Square = 2;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class ofd_models_pages_graphics_OfdUnitJoin extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.models.pages.graphics.OfdUnitJoin";
+    static $Round = 1;
+    static $Miter = 0;
+    static $Bevel = 2;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class ofd_models_pages_OfdArea extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdArea";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_OfdBlock extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdBlock";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_OfdCGTransform extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdCGTransform";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_OfdClip extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdClip";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_OfdImageBorder extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdImageBorder";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_OfdLayerType extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdLayerType";
+    static $Background = 1;
+    static $Foreground = 5;
+    static $Custom = 6;
+    static $Body = 3;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class ofd_models_pages_OfdPage extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdPage";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_OfdPageLayout extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdPageLayout";
+    static $TwoPageR = 4;
+    static $OnePage = 0;
+    static $OneColumn = 1;
+    static $TwoColumnL = 3;
+    static $TwoPageL = 2;
+    static $TwoColumnR = 5;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class ofd_models_pages_OfdPageMode extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdPageMode";
+    static $UseOutlines = 2;
+    static $UseCustomTags = 4;
+    static $UseBookmarks = 7;
+    static $UseThumbs = 3;
+    static $UseAttatchs = 6;
+    static $UseLayers = 5;
+    static $None = 0;
+    static $FullScreen = 1;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class ofd_models_pages_OfdPathRule extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdPathRule";
+    static $EvenOdd = 1;
+    static $NonZero = 0;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class ofd_models_pages_OfdTemplate extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdTemplate";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_OfdTextCode extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdTextCode";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_pages_OfdTextWeight extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.models.pages.OfdTextWeight";
+    static $Weight100 = 1;
+    static $Weight200 = 2;
+    static $Weight300 = 3;
+    static $Weight1000 = 10;
+    static $Weight400 = 4;
+    static $Weight500 = 5;
+    static $Weight600 = 6;
+    static $Weight0 = 0;
+    static $Weight700 = 7;
+    static $Weight900 = 9;
+    static $Weight800 = 8;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class ofd_models_res_OfdFontItem extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.res.OfdFontItem";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_res_OfdMultiMediaItem extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.res.OfdMultiMediaItem";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_models_res_OfdRes extends Java {
+	static private $_className = "com.aspose.pdf.php.ofd.models.res.OfdRes";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class ofd_OFDConsts extends Java {
+    static private $_className = "com.aspose.pdf.php.ofd.OFDConsts";
+    static $ColorSpacesColorSpace;
+    static $RadialMapUnit;
+    static $FontItemFontName;
+    static $MultiMediaItemType;
+    static $TextObjectBoundary;
+    static $PreferencesDefault;
+    static $ImageCap;
+    static $FontFamilyName;
+    static $PreferencesFitHeight;
+    static $AnnotationAppearancePathObject;
+    static $DestinationFitV;
+    static $SignedInfoProviderProviderName;
+    static $PatternReflectMethod;
+    static $DestinationFitR;
+    static $ColorSpaceItemBitsPerComponent;
+    static $TextJoin;
+    static $PreferencesHideWindowUI;
+    static $FontShiftJis;
+    static $DestinationFitH;
+    static $AttachmentSize;
+    static $ColorGouraudShd;
+    static $PagePageRes;
+    static $ColorSpaceType;
+    static $CustomTagSchemaLoc;
+    static $PreferencesUseCustomTags;
+    static $CustomTagFileLoc;
+    static $ResFonts;
+    static $TextReadDirection;
+    static $CompositeName;
+    static $AnnotationsPageFileLoc;
+    static $UnitName;
+    static $FontItemUnicode;
+    static $MultiMediaVideo;
+    static $FontItemJohab;
+    static $ContentLayerPageBlock;
+    static $MultiMediaItemMediaFile;
+    static $PathMiter;
+    static $TextObject300;
+    static $DocInfoDocId;
+    static $AnnotationAppearanceImageObject;
+    static $FontItemPrc;
+    static $ActionMovieStop;
+    static $PageAnnotationVisible;
+    static $DestinationTop;
+    static $DocInfoAbstract;
+    static $FontItemBig5;
+    static $PathObjectBevel;
+    static $MultiMediaItemAudio;
+    static $TemplateBackground;
+    static $ActionSoundResourceId;
+    static $TextObjectHScale;
+    static $CompositeCap;
+    static $LaGouraudPointX;
+    static $LaGouraudPointY;
+    static $TextObjectActions;
+    static $AttachmentFormat;
+    static $Text0;
+    static $PatternHeight;
+    static $PathObjectName;
+    static $PageContent;
+    static $ColorSpacePalette;
+    static $PatternXStep;
+    static $TextObjectName;
+    static $PageAnnotationRemark;
+    static $DrawParamRelative;
+    static $LayerObjectType;
+    static $DrawParamItemMiter;
+    static $VersionId;
+    static $PathObjectId;
+    static $PropertyName;
+    static $SignedInfoProvider;
+    static $PageAnnotationSubtype;
+    static $DocBodyRefSignatures;
+    static $ActionMovieResume;
+    static $PathBevel;
+    static $PreferencesOneColumn;
+    static $TemplatePageRefBody;
+    static $LaGouraudExtend;
+    static $PatternCellContentId;
+    static $CompositeObjectSquare;
+    static $CompositeGraphicUnitId;
+    static $TextObjectStroke;
+    static $TemplatePageRefForeground;
+    static $RootOfd;
+    static $PathObjectAbbreviatedData;
+    static $TextObject200;
+    static $TextFill;
+    static $ActionUri;
+    static $MultiMediaItemVideo;
+    static $DestinationXyz;
+    static $CompositeObjectDashOffset;
+    static $ImageBoundary;
+    static $PathRound;
+    static $FontUnicode;
+    static $PathNonZero;
+    static $DocInfoCreatorVersion;
+    static $Axial3;
+    static $Axial2;
+    static $DocBodyOutlines;
+    static $Axial1;
+    static $Axial0;
+    static $PreferencesUseOutlines;
+    static $FontItalic;
+    static $RegionAreaArc;
+    static $PageAnnotationId;
+    static $PropertyType;
+    static $VersionIndex;
+    static $CompositeObjectDashPattern;
+    static $CompositeGraphicUnitWidth;
+    static $ActionClick;
+    static $PermissionAnnot;
+    static $PageAnnotParameterName;
+    static $PageAnnotationNoRotate;
+    static $MultiMediaItemId;
+    static $ClipAreaCtm;
+    static $ImageObjectBorder;
+    static $UnitBevel;
+    static $CommonDataInternalRes;
+    static $CompositeObjectClips;
+    static $DocBodyActions;
+    static $SignedInfoStampAnnotBoundary;
+    static $ImageObjectCtm;
+    static $PathStrokeColor;
+    static $TextObjectButt;
+    static $TextRound;
+    static $ActionDo;
+    static $TextObjectCtm;
+    static $AreaPhysicalBox;
+    static $SignedInfoSeal;
+    static $TextObject0;
+    static $PathObjectButt;
+    static $FontItemItalic;
+    static $DocVersionName;
+    static $ActionUriUri;
+    static $CompositeObjectName;
+    static $CompositeButt;
+    static $ImageObjectDrawParam;
+    static $ImageObjectDashPattern;
+    static $PathObjectMiterLimit;
+    static $RadialSegmentColor;
+    static $TextObject100;
+    static $CommonDataTemplatePage;
+    static $FontSerif;
+    static $CompositeObjectVisible;
+    static $ExtensionExtendData;
+    static $VectorGSubstitution;
+    static $LaGouraudPoint;
+    static $PathVisible;
+    static $PathFillColor;
+    static $PatternYStep;
+    static $PreferencesFileName;
+    static $CompositeGraphicUnitsCompositeGraphicUnit;
+    static $PreferencesTabDisplay;
+    static $SignedInfoProviderCompany;
+    static $MovePoint1;
+    static $ColorValue;
+    static $ContentLayerPathObject;
+    static $ActionMoviePause;
+    static $FontCharset;
+    static $ImageObjectSquare;
+    static $ImageBevel;
+    static $PageArea;
+    static $AxialMapUnit;
+    static $CompositeLineWidth;
+    static $DocVersionFileId;
+    static $TextTextCode;
+    static $TextStroke;
+    static $TextBevel;
+    static $UnitRound;
+    static $ActionMovieOperator;
+    static $Text1000;
+    static $CompositeGraphicUnitSubstitution;
+    static $CompositeVisible;
+    static $GouraudPointEdgeFlag;
+    static $PageBlockObjectPageBlock;
+    static $PathObjectDrawParam;
+    static $PageAnnotationHighlight;
+    static $ImageObjectMiter;
+    static $PathObjectMiter;
+    static $TextDashOffset;
+    static $DrawParamDashPattern;
+    static $AxialDirect;
+    static $PageBlockObjectCompositeObject;
+    static $LayerObjectPageBlock;
+    static $LayerObjectCompositeObject;
+    static $PathObjectCtm;
+    static $ColorAxialShd;
+    static $FontFontName;
+    static $FontsFont;
+    static $TextObjectBevel;
+    static $PathDashOffset;
+    static $PageAnnotationReadOnly;
+    static $ImageBorderHorizontalCornerRadius;
+    static $TextButt;
+    static $DrawParamItemRelative;
+    static $BlockPathObject;
+    static $AttachmentsAttachment;
+    static $CompositeObjectBevel;
+    static $TemplatePageRefName;
+    static $CommonDataMaxUnitId;
+    static $ImageRound;
+    static $PermissionPrintCopies;
+    static $TextWeight;
+    static $ContentLayerForeground;
+    static $ImageObjectImageMask;
+    static $PathObjectActions;
+    static $DocBodyPages;
+    static $FontPrc;
+    static $MultiMediasMultiMedia;
+    static $TemplateTemplateId;
+    static $CompositeObjectMiterLimit;
+    static $PageAnnotationPath;
+    static $PathObjectAlpha;
+    static $UnitDashPattern;
+    static $CGTransformGlyphCount;
+    static $FontItemFontFile;
+    static $PathName;
+    static $PathObjectDashPattern;
+    static $PreferencesTwoColumnR;
+    static $PageAnnotationWatermark;
+    static $AttachmentCreationDate;
+    static $PreferencesTwoColumnL;
+    static $UnitActions;
+    static $VersionBaseLoc;
+    static $AxialRepeat;
+    static $TextObjectDrawParam;
+    static $PreferencesUseLayers;
+    static $LayerObjectDrawParam;
+    static $SignatureRefType;
+    static $ColorIndex;
+    static $Text900;
+    static $TextDrawParam;
+    static $DrawParamLineWidth;
+    static $TextObject700;
+    static $TemplateZOrder;
+    static $SignaturesSignatures;
+    static $DocInfoDocUsage;
+    static $CompositeObjectActions;
+    static $ColorLaGourandShd;
+    static $ImageObjectRound;
+    static $ResCompositeGraphicUnits;
+    static $ContentLayerId;
+    static $PathSquare;
+    static $GouraudPoint2;
+    static $OutlineElemTitle;
+    static $GouraudPoint1;
+    static $GouraudPoint0;
+    static $ArcRotationAngle;
+    static $PathCap;
+    static $ColorSpaceRgb;
+    static $BlockImageObject;
+    static $MultiMediaItemImage;
+    static $TextObjectFill;
+    static $QuadraticBezierPoint1;
+    static $QuadraticBezierPoint2;
+    static $ContentLayerCompositeObject;
+    static $TextDashPattern;
+    static $CompositeObjectId;
+    static $ColorSpaceItemRgb;
+    static $LayerObjectForeground;
+    static $LaGouraudBackColor;
+    static $BlockCompositeObject;
+    static $PreferencesZoomMode;
+    static $ActionMoviePlay;
+    static $ImageObjectId;
+    static $PathObjectVisible;
+    static $TextObjectLineWidth;
+    static $PreferencesOnePage;
+    static $ClipAreaPath;
+    static $ImageName;
+    static $CompositeDashPattern;
+    static $MultiMediaType;
+    static $DocBodyRefDocInfo;
+    static $ImageDashOffset;
+    static $SignaturesSignature;
+    static $ActionSound;
+    static $TextObject600;
+    static $TextName;
+    static $Text800;
+    static $ImageObjectClips;
+    static $ArcSweepDirection;
+    static $ImageObjectLineWidth;
+    static $ColorRadialShd;
+    static $PermissionSignature;
+    static $ActionEvent;
+    static $ImageObjectResourceId;
+    static $SignatureSignedValue;
+    static $CompositeJoin;
+    static $DocInfoCustomDatas;
+    static $FontJohab;
+    static $PreferencesPageLayout;
+    static $PathRule;
+    static $RootVersion;
+    static $LaGouraudVerticesPerRow;
+    static $AttachmentName;
+    static $TextObjectDashOffset;
+    static $PathObjectEvenOdd;
+    static $DocInfoSubject;
+    static $CompositeCtm;
+    static $ImageBorderLineWidth;
+    static $CubicBezierPoint1;
+    static $CubicBezierPoint2;
+    static $CompositeObjectCtm;
+    static $CubicBezierPoint3;
+    static $DrawParamItemFillColor;
+    static $FontItemWansung;
+    static $PreferencesUseBookmarks;
+    static $ResDrawParams;
+    static $UnitCap;
+    static $VectorGContent;
+    static $TextMiterLimit;
+    static $CommonDataDefaultCS;
+    static $GouraudPointColor;
+    static $ResRes;
+    static $PatternWidth;
+    static $TextObjectStrokeColor;
+    static $DrawParamItemDashOffset;
+    static $PreferencesDocTitle;
+    static $ColorSpaceGray;
+    static $ImageObjectName;
+    static $GouraudPointY;
+    static $GouraudPointX;
+    static $DocBodyRefDocRoot;
+    static $CGTransformGlyphs;
+    static $TextObject500;
+    static $PageAnnotationLink;
+    static $AxialSegmentColor;
+    static $CompositeDrawParam;
+    static $TextSquare;
+    static $PatternRowAndColumn;
+    static $PathObjectRule;
+    static $ClipAreaDrawParam;
+    static $TextItalic;
+    static $PageAnnotationParameters;
+    static $TextObjectMiter;
+    static $RootDocType;
+    static $PageAnnotationsAnnot;
+    static $ActionRegion;
+    static $RadialRepeat;
+    static $FontItemShiftJis;
+    static $FontBig5;
+    static $AxialEndPoint;
+    static $TextObjectAlpha;
+    static $ColorSpaceItemCmyk;
+    static $ImageObjectDashOffset;
+    static $ColorAlpha;
+    static $TextClips;
+    static $PatternCellContentPageBlock;
+    static $FontItemSymbol;
+    static $DrawParamsDrawParam;
+    static $PermissionPrintPrintable;
+    static $PreferencesFitWidth;
+    static $AnnotationsCollectionPage;
+    static $ImageClips;
+    static $MultiMediaFormat;
+    static $ActionSoundRepeat;
+    static $AttachmentId;
+    static $ResColorSpaces;
+    static $PathObjectBoundary;
+    static $AttachmentFileLoc;
+    static $ExtensionProperty;
+    static $TextCap;
+    static $CompositeClips;
+    static $ActionGoto;
+    static $PathObjectLineWidth;
+    static $TextObjectJoin;
+    static $AttachmentUsage;
+    static $ActionSoundSynchronous;
+    static $MultiMediaImage;
+    static $PatternPage;
+    static $DocInfoCreator;
+    static $TextHScale;
+    static $ExtensionAppVersion;
+    static $SignatureSignedInfo;
+    static $AnnotationAppearanceTextObject;
+    static $RegionAreaStart;
+    static $TextObject400;
+    static $PageAnnotationType;
+    static $ImageDrawParam;
+    static $PermissionValidPeriodStartDate;
+    static $GouraudExtend;
+    static $FontBold;
+    static $SignedInfoReferencesMD5;
+    static $PageBlockObjectTextObject;
+    static $PatternObject;
+    static $LayerObjectTextObject;
+    static $PathFill;
+    static $ImageJoin;
+    static $DrawParamItemStrokeColor;
+    static $TextObjectId;
+    static $PermissionPrintScreen;
+    static $SignedInfoReferences;
+    static $FontFontFile;
+    static $PathDashPattern;
+    static $ImageMiterLimit;
+    static $CompositeObjectDrawParam;
+    static $ResBaseLoc;
+    static $PermissionEdit;
+    static $PathObjectDashOffset;
+    static $DrawParamStrokeColor;
+    static $DocBodyAnnotations;
+    static $ActionGotoBookmark;
+    static $DocBodyBookmarks;
+    static $SignedInfoReferencesReference;
+    static $ColorSpaceCmyk;
+    static $CompositeSquare;
+    static $UnitDrawParam;
+    static $UnitMiterLimit;
+    static $ImageObjectMiterLimit;
+    static $AxialMapType;
+    static $PathObjectCap;
+    static $CompositeBoundary;
+    static $DestinationRight;
+    static $ColorSpaceItemGray;
+    static $CustomTagsCustomTag;
+    static $ContentLayer;
+    static $TemplatePageRefBackground;
+    static $SignedInfoSealBaseLoc;
+    static $ImageObjectButt;
+    static $UnitLineWidth;
+    static $PreferencesFitRect;
+    static $CompositeObjectLineWidth;
+    static $Text500;
+    static $CommonDataDocumentRes;
+    static $AnnotationAppearanceCompositeObject;
+    static $PageBlockObjectImageObject;
+    static $PatternRow;
+    static $ImageBorderDashOffset;
+    static $ContentLayerDrawParam;
+    static $CompositeObjectJoin;
+    static $DrawParamMiter;
+    static $TemplatePageRefBaseLoc;
+    static $SignedInfoSignatureMethod;
+    static $ImageObjectAlpha;
+    static $PermissionWatermark;
+    static $UnitClips;
+    static $PathJoin;
+    static $UnitSquare;
+    static $PreferencesNone;
+    static $RadialExtend;
+    static $PreferencesHideMenubar;
+    static $MultiMediaMediaFile;
+    static $PatternCellContent;
+    static $TextObjectCap;
+    static $PathStroke;
+    static $Text400;
+    static $RadialSegment;
+    static $ImageLineWidth;
+    static $DocumentPageRefBaseLoc;
+    static $ContentLayerTextObject;
+    static $TemplateForeground;
+    static $ColorSpaceBitsPerComponent;
+    static $SignedInfoReferenceFileRef;
+    static $ImageCtm;
+    static $ClipAreaText;
+    static $VectorGWidth;
+    static $PreferencesFullScreen;
+    static $BlockTextObject;
+    static $PatternCtm;
+    static $RegionAreaQuadraticBezier;
+    static $AreaApplicationBox;
+    static $AxialExtend;
+    static $CompositeRound;
+    static $DocVersionDocRoot;
+    static $PermissionValidPeriodEndDate;
+    static $PathBoundary;
+    static $UnitJoin;
+    static $UnitVisible;
+    static $ImageBorder;
+    static $ImageBorderBorderColor;
+    static $ImageResourceId;
+    static $PathObjectSquare;
+    static $PreferencesZoom;
+    static $DestinationLeft;
+    static $DrawParamItemCap;
+    static $DocBodyCustomTags;
+    static $ClipArea;
+    static $TextObjectFont;
+    static $PathButt;
+    static $CompositeObjectResourceId;
+    static $TextObjectWeight;
+    static $OutlineElemOutlineElem;
+    static $SignedInfoSignatureDateTime;
+    static $RadialEndPoint;
+    static $DocBodyVPreferences;
+    static $ExtensionDate;
+    static $SignedInfoStampAnnotId;
+    static $ContentLayerCustom;
+    static $TextObjectVisible;
+    static $CompositeBevel;
+    static $TextCodeY;
+    static $TextCodeX;
+    static $ActionMovie;
+    static $RadialMapType;
+    static $VectorGHeight;
+    static $DocBodyCommonData;
+    static $SignatureRefSign;
+    static $PatternCellContentImageObject;
+    static $PathAbbreviatedData;
+    static $TextObject900;
+    static $DrawParamItemLineWidth;
+    static $TextObjectMiterLimit;
+    static $PathClips;
+    static $DocInfoCreationDate;
+    static $TextObjectTextCode;
+    static $PageBlockObjectId;
+    static $Text700;
+    static $RadialDirect;
+    static $DocVersionFileList;
+    static $ColorColorSpace;
+    static $CGTransformCodeCount;
+    static $ActionSoundVolume;
+    static $PageAnnotationStamp;
+    static $FontWansung;
+    static $UnitBoundary;
+    static $SignatureSignature;
+    static $DocVersionCreationDate;
+    static $TextObjectSize;
+    static $PagePage;
+    static $TextObjectCGTransform;
+    static $LayerObjectImageObject;
+    static $ImageSquare;
+    static $PathObjectFillColor;
+    static $ActionGotoBookmarkName;
+    static $OutlineElemExpanded;
+    static $DrawParamItemMiterLimit;
+    static $CustomDataName;
+    static $CompositeGraphicUnitThumbnail;
+    static $ArcLargeArc;
+    static $ArcEndPoint;
+    static $ExtensionRefId;
+    static $SignatureRefId;
+    static $ContentLayerBackground;
+    static $AreaContentBox;
+    static $SignedInfoReferencesSHA1;
+    static $ImageObjectCap;
+    static $ContentLayerBody;
+    static $DrawParamMiterLimit;
+    static $OutlineElemCount;
+    static $PermissionPrint;
+    static $DocInfoTitle;
+    static $TextActions;
+    static $TextSize;
+    static $PathDrawParam;
+    static $ActionMovieResourceId;
+    static $AxialSegment;
+    static $ColorSpaceProfile;
+    static $DestinationPageId;
+    static $FontItemSerif;
+    static $ActionGotoA;
+    static $AttachmentVisible;
+    static $SignedInfoReferencesCheckMethod;
+    static $DocVersionDocVersion;
+    static $SignatureRefSeal;
+    static $ImageObjectSubstitution;
+    static $LayerObjectBody;
+    static $TextObject800;
+    static $TextObjectRound;
+    static $ImageButt;
+    static $Text600;
+    static $PatternRelativeTo;
+    static $CompositeObjectAlpha;
+    static $TextObject1000;
+    static $ColorSpaceItemType;
+    static $ContentLayerType;
+    static $BookmarkDest;
+    static $LayerObjectCustom;
+    static $LayerObjectId;
+    static $PatternCellContentTextObject;
+    static $AnnotationAppearanceBoundary;
+    static $DrawParamFillColor;
+    static $FontFixedWidth;
+    static $TemplatePageRefId;
+    static $CompositeGraphicUnitContent;
+    static $TextStrokeColor;
+    static $AttachmentsAttachments;
+    static $BookmarkName;
+    static $ActionGotoANewWindow;
+    static $ImageObjectVisible;
+    static $TextLineWidth;
+    static $ImageObjectJoin;
+    static $CompositeObjectButt;
+    static $ActionUriBase;
+    static $TextFillColor;
+    static $AxialReflect;
+    static $FontItemId;
+    static $LaGouraudPointColor;
+    static $DocBodyExtensions;
+    static $GouraudPoint;
+    static $PreferencesPageMode;
+    static $TextCGTransform;
+    static $AnnotationsPagePageId;
+    static $TextObjectFillColor;
+    static $TextObjectSquare;
+    static $TextBoundary;
+    static $TextObjectItalic;
+    static $TextMiter;
+    static $SignedInfoStampAnnotPageRef;
+    static $Text100;
+    static $CompositeObjectMiter;
+    static $MultiMediaItemFormat;
+    static $PathObjectFill;
+    static $PathActions;
+    static $TextCtm;
+    static $RegionAreaCubicBezier;
+    static $TemplatePageRefZOrder;
+    static $TextFont;
+    static $PathObjectClips;
+    static $DocBodyDocument;
+    static $PathEvenOdd;
+    static $CompositeResourceId;
+    static $ImageObjectBoundary;
+    static $CompositeMiter;
+    static $TextVisible;
+    static $SignedInfoProviderVersion;
+    static $CompositeActions;
+    static $FontItemCharset;
+    static $ResMultiMedias;
+    static $CompositeMiterLimit;
+    static $ImageMiter;
+    static $CommonDataPublicRes;
+    static $RadialEndRadius;
+    static $GouraudBackColor;
+    static $VersionCurrent;
+    static $PathAlpha;
+    static $DestinationZoom;
+    static $DocInfoModDate;
+    static $ColorPattern;
+    static $PreferencesUseThumbs;
+    static $PreferencesTwoPageL;
+    static $RootDocBody;
+    static $ImageBorderDashPattern;
+    static $RadialEccentricity;
+    static $PreferencesTwoPageR;
+    static $ColorSpaceItemPalette;
+    static $BlockPageBlock;
+    static $ImageActions;
+    static $CompositeDashOffset;
+    static $DocBodyAttachments;
+    static $CompositeObjectCap;
+    static $CustomTagNameSpace;
+    static $DocInfoCover;
+    static $ImageSubstitution;
+    static $ImageImageMask;
+    static $PageAnnotationAppearance;
+    static $PageTemplate;
+    static $CustomTagsCustomTags;
+    static $ExtensionCompany;
+    static $ImageBorderVerticalCornerRadius;
+    static $FontItemBold;
+    static $DocVersionId;
+    static $UnitMiter;
+    static $ArcEllipseSize;
+    static $PageAnnotationsPageAnnot;
+    static $RadialStartRadius;
+    static $PathMiterLimit;
+    static $LinePoint1;
+    static $AnnotationsCollectionAnnotations;
+    static $PreferencesUseAttatchs;
+    static $PatternCellContentPathObject;
+    static $FontItemFixedWidth;
+    static $AttachmentModDate;
+    static $PathCtm;
+    static $LayerObjectPathObject;
+    static $RegionAreaLine;
+    static $DocumentPageRefId;
+    static $TextObjectCharDirection;
+    static $LayerObjectBackground;
+    static $UnitDashOffset;
+    static $PageAnnotationNoZoom;
+    static $ColorSpaceItemProfile;
+    static $AxialStartPoint;
+    static $SignedInfoStampAnnotClip;
+    static $DocBodyRefVersions;
+    static $DocInfoAuthor;
+    static $RadialAngle;
+    static $DocInfoKeywords;
+    static $TextObjectClips;
+    static $Text300;
+    static $FontSymbol;
+    static $TextObjectDashPattern;
+    static $PageAnnotationPrint;
+    static $UnitButt;
+    static $VectorGThumbnail;
+    static $PageBlockObjectPathObject;
+    static $UnitAlpha;
+    static $SignedInfoReferenceCheckValue;
+    static $PathObjectRound;
+    static $PatternNormal;
+    static $PatternCellContentThumbnail;
+    static $ExtensionsExtensions;
+    static $TextCodeDeltaY;
+    static $SignatureRefBaseLoc;
+    static $TextCodeDeltaX;
+    static $ImageObjectBevel;
+    static $CompositeAlpha;
+    static $OutlineElemActions;
+    static $CGTransformCodePosition;
+    static $PathLineWidth;
+    static $ImageAlpha;
+    static $DestinationType;
+    static $CompositeGraphicUnitHeight;
+    static $ImageObjectActions;
+    static $TextObjectReadDirection;
+    static $PageAnnotationCreator;
+    static $RadialStartPoint;
+    static $ContentLayerImageObject;
+    static $PathObjectNonZero;
+    static $ActionPo;
+    static $PreferencesHideToolbar;
+    static $PatternCellContentCompositeObject;
+    static $ActionUriTarget;
+    static $ExtensionsExtension;
+    static $DrawParamItemDashPattern;
+    static $ImageDashPattern;
+    static $CommonDataPageArea;
+    static $DrawParamCap;
+    static $AreaBleedBox;
+    static $CompositeObjectRound;
+    static $DocBodyPermissions;
+    static $CompositeObjectBoundary;
+    static $DocVersionVersion;
+    static $ActionGotoDest;
+    static $PatternColumn;
+    static $PathObjectStrokeColor;
+    static $PathObjectStroke;
+    static $DestinationBottom;
+    static $DrawParamDashOffset;
+    static $RadialReflect;
+    static $PageActions;
+    static $PathObjectJoin;
+    static $RadialSegmentPosition;
+    static $DrawParamItemId;
+    static $Text200;
+    static $MultiMediaAudio;
+    static $ExtensionAppName;
+    static $ImageVisible;
+    static $PageAnnotationLastModDate;
+    static $DestinationFit;
+    static $PermissionValidPeriod;
+    static $FontItemFamilyName;
+    static $AnnotationAppearancePageBlock;
+    static $AxialSegmentPosition;
+    static $SignedInfoStampAnnot;
+    static $RegionAreaMove;
+    static $PermissionExport;
+    static $TextCharDirection;
+    static $UnitCtm;
+    static $ColorSpaceItemId;
+    static $SignaturesMaxSignId;
+    static $TextAlpha;
+    static $ActionGotoAAttachId;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+        self::$ColorSpacesColorSpace = Java(self::$_className)->ColorSpacesColorSpace;
+        self::$RadialMapUnit = Java(self::$_className)->RadialMapUnit;
+        self::$FontItemFontName = Java(self::$_className)->FontItemFontName;
+        self::$MultiMediaItemType = Java(self::$_className)->MultiMediaItemType;
+        self::$TextObjectBoundary = Java(self::$_className)->TextObjectBoundary;
+        self::$PreferencesDefault = Java(self::$_className)->PreferencesDefault;
+        self::$ImageCap = Java(self::$_className)->ImageCap;
+        self::$FontFamilyName = Java(self::$_className)->FontFamilyName;
+        self::$PreferencesFitHeight = Java(self::$_className)->PreferencesFitHeight;
+        self::$AnnotationAppearancePathObject = Java(self::$_className)->AnnotationAppearancePathObject;
+        self::$DestinationFitV = Java(self::$_className)->DestinationFitV;
+        self::$SignedInfoProviderProviderName = Java(self::$_className)->SignedInfoProviderProviderName;
+        self::$PatternReflectMethod = Java(self::$_className)->PatternReflectMethod;
+        self::$DestinationFitR = Java(self::$_className)->DestinationFitR;
+        self::$ColorSpaceItemBitsPerComponent = Java(self::$_className)->ColorSpaceItemBitsPerComponent;
+        self::$TextJoin = Java(self::$_className)->TextJoin;
+        self::$PreferencesHideWindowUI = Java(self::$_className)->PreferencesHideWindowUI;
+        self::$FontShiftJis = Java(self::$_className)->FontShiftJis;
+        self::$DestinationFitH = Java(self::$_className)->DestinationFitH;
+        self::$AttachmentSize = Java(self::$_className)->AttachmentSize;
+        self::$ColorGouraudShd = Java(self::$_className)->ColorGouraudShd;
+        self::$PagePageRes = Java(self::$_className)->PagePageRes;
+        self::$ColorSpaceType = Java(self::$_className)->ColorSpaceType;
+        self::$CustomTagSchemaLoc = Java(self::$_className)->CustomTagSchemaLoc;
+        self::$PreferencesUseCustomTags = Java(self::$_className)->PreferencesUseCustomTags;
+        self::$CustomTagFileLoc = Java(self::$_className)->CustomTagFileLoc;
+        self::$ResFonts = Java(self::$_className)->ResFonts;
+        self::$TextReadDirection = Java(self::$_className)->TextReadDirection;
+        self::$CompositeName = Java(self::$_className)->CompositeName;
+        self::$AnnotationsPageFileLoc = Java(self::$_className)->AnnotationsPageFileLoc;
+        self::$UnitName = Java(self::$_className)->UnitName;
+        self::$FontItemUnicode = Java(self::$_className)->FontItemUnicode;
+        self::$MultiMediaVideo = Java(self::$_className)->MultiMediaVideo;
+        self::$FontItemJohab = Java(self::$_className)->FontItemJohab;
+        self::$ContentLayerPageBlock = Java(self::$_className)->ContentLayerPageBlock;
+        self::$MultiMediaItemMediaFile = Java(self::$_className)->MultiMediaItemMediaFile;
+        self::$PathMiter = Java(self::$_className)->PathMiter;
+        self::$TextObject300 = Java(self::$_className)->TextObject300;
+        self::$DocInfoDocId = Java(self::$_className)->DocInfoDocId;
+        self::$AnnotationAppearanceImageObject = Java(self::$_className)->AnnotationAppearanceImageObject;
+        self::$FontItemPrc = Java(self::$_className)->FontItemPrc;
+        self::$ActionMovieStop = Java(self::$_className)->ActionMovieStop;
+        self::$PageAnnotationVisible = Java(self::$_className)->PageAnnotationVisible;
+        self::$DestinationTop = Java(self::$_className)->DestinationTop;
+        self::$DocInfoAbstract = Java(self::$_className)->DocInfoAbstract;
+        self::$FontItemBig5 = Java(self::$_className)->FontItemBig5;
+        self::$PathObjectBevel = Java(self::$_className)->PathObjectBevel;
+        self::$MultiMediaItemAudio = Java(self::$_className)->MultiMediaItemAudio;
+        self::$TemplateBackground = Java(self::$_className)->TemplateBackground;
+        self::$ActionSoundResourceId = Java(self::$_className)->ActionSoundResourceId;
+        self::$TextObjectHScale = Java(self::$_className)->TextObjectHScale;
+        self::$CompositeCap = Java(self::$_className)->CompositeCap;
+        self::$LaGouraudPointX = Java(self::$_className)->LaGouraudPointX;
+        self::$LaGouraudPointY = Java(self::$_className)->LaGouraudPointY;
+        self::$TextObjectActions = Java(self::$_className)->TextObjectActions;
+        self::$AttachmentFormat = Java(self::$_className)->AttachmentFormat;
+        self::$Text0 = Java(self::$_className)->Text0;
+        self::$PatternHeight = Java(self::$_className)->PatternHeight;
+        self::$PathObjectName = Java(self::$_className)->PathObjectName;
+        self::$PageContent = Java(self::$_className)->PageContent;
+        self::$ColorSpacePalette = Java(self::$_className)->ColorSpacePalette;
+        self::$PatternXStep = Java(self::$_className)->PatternXStep;
+        self::$TextObjectName = Java(self::$_className)->TextObjectName;
+        self::$PageAnnotationRemark = Java(self::$_className)->PageAnnotationRemark;
+        self::$DrawParamRelative = Java(self::$_className)->DrawParamRelative;
+        self::$LayerObjectType = Java(self::$_className)->LayerObjectType;
+        self::$DrawParamItemMiter = Java(self::$_className)->DrawParamItemMiter;
+        self::$VersionId = Java(self::$_className)->VersionId;
+        self::$PathObjectId = Java(self::$_className)->PathObjectId;
+        self::$PropertyName = Java(self::$_className)->PropertyName;
+        self::$SignedInfoProvider = Java(self::$_className)->SignedInfoProvider;
+        self::$PageAnnotationSubtype = Java(self::$_className)->PageAnnotationSubtype;
+        self::$DocBodyRefSignatures = Java(self::$_className)->DocBodyRefSignatures;
+        self::$ActionMovieResume = Java(self::$_className)->ActionMovieResume;
+        self::$PathBevel = Java(self::$_className)->PathBevel;
+        self::$PreferencesOneColumn = Java(self::$_className)->PreferencesOneColumn;
+        self::$TemplatePageRefBody = Java(self::$_className)->TemplatePageRefBody;
+        self::$LaGouraudExtend = Java(self::$_className)->LaGouraudExtend;
+        self::$PatternCellContentId = Java(self::$_className)->PatternCellContentId;
+        self::$CompositeObjectSquare = Java(self::$_className)->CompositeObjectSquare;
+        self::$CompositeGraphicUnitId = Java(self::$_className)->CompositeGraphicUnitId;
+        self::$TextObjectStroke = Java(self::$_className)->TextObjectStroke;
+        self::$TemplatePageRefForeground = Java(self::$_className)->TemplatePageRefForeground;
+        self::$RootOfd = Java(self::$_className)->RootOfd;
+        self::$PathObjectAbbreviatedData = Java(self::$_className)->PathObjectAbbreviatedData;
+        self::$TextObject200 = Java(self::$_className)->TextObject200;
+        self::$TextFill = Java(self::$_className)->TextFill;
+        self::$ActionUri = Java(self::$_className)->ActionUri;
+        self::$MultiMediaItemVideo = Java(self::$_className)->MultiMediaItemVideo;
+        self::$DestinationXyz = Java(self::$_className)->DestinationXyz;
+        self::$CompositeObjectDashOffset = Java(self::$_className)->CompositeObjectDashOffset;
+        self::$ImageBoundary = Java(self::$_className)->ImageBoundary;
+        self::$PathRound = Java(self::$_className)->PathRound;
+        self::$FontUnicode = Java(self::$_className)->FontUnicode;
+        self::$PathNonZero = Java(self::$_className)->PathNonZero;
+        self::$DocInfoCreatorVersion = Java(self::$_className)->DocInfoCreatorVersion;
+        self::$Axial3 = Java(self::$_className)->Axial3;
+        self::$Axial2 = Java(self::$_className)->Axial2;
+        self::$DocBodyOutlines = Java(self::$_className)->DocBodyOutlines;
+        self::$Axial1 = Java(self::$_className)->Axial1;
+        self::$Axial0 = Java(self::$_className)->Axial0;
+        self::$PreferencesUseOutlines = Java(self::$_className)->PreferencesUseOutlines;
+        self::$FontItalic = Java(self::$_className)->FontItalic;
+        self::$RegionAreaArc = Java(self::$_className)->RegionAreaArc;
+        self::$PageAnnotationId = Java(self::$_className)->PageAnnotationId;
+        self::$PropertyType = Java(self::$_className)->PropertyType;
+        self::$VersionIndex = Java(self::$_className)->VersionIndex;
+        self::$CompositeObjectDashPattern = Java(self::$_className)->CompositeObjectDashPattern;
+        self::$CompositeGraphicUnitWidth = Java(self::$_className)->CompositeGraphicUnitWidth;
+        self::$ActionClick = Java(self::$_className)->ActionClick;
+        self::$PermissionAnnot = Java(self::$_className)->PermissionAnnot;
+        self::$PageAnnotParameterName = Java(self::$_className)->PageAnnotParameterName;
+        self::$PageAnnotationNoRotate = Java(self::$_className)->PageAnnotationNoRotate;
+        self::$MultiMediaItemId = Java(self::$_className)->MultiMediaItemId;
+        self::$ClipAreaCtm = Java(self::$_className)->ClipAreaCtm;
+        self::$ImageObjectBorder = Java(self::$_className)->ImageObjectBorder;
+        self::$UnitBevel = Java(self::$_className)->UnitBevel;
+        self::$CommonDataInternalRes = Java(self::$_className)->CommonDataInternalRes;
+        self::$CompositeObjectClips = Java(self::$_className)->CompositeObjectClips;
+        self::$DocBodyActions = Java(self::$_className)->DocBodyActions;
+        self::$SignedInfoStampAnnotBoundary = Java(self::$_className)->SignedInfoStampAnnotBoundary;
+        self::$ImageObjectCtm = Java(self::$_className)->ImageObjectCtm;
+        self::$PathStrokeColor = Java(self::$_className)->PathStrokeColor;
+        self::$TextObjectButt = Java(self::$_className)->TextObjectButt;
+        self::$TextRound = Java(self::$_className)->TextRound;
+        self::$ActionDo = Java(self::$_className)->ActionDo;
+        self::$TextObjectCtm = Java(self::$_className)->TextObjectCtm;
+        self::$AreaPhysicalBox = Java(self::$_className)->AreaPhysicalBox;
+        self::$SignedInfoSeal = Java(self::$_className)->SignedInfoSeal;
+        self::$TextObject0 = Java(self::$_className)->TextObject0;
+        self::$PathObjectButt = Java(self::$_className)->PathObjectButt;
+        self::$FontItemItalic = Java(self::$_className)->FontItemItalic;
+        self::$DocVersionName = Java(self::$_className)->DocVersionName;
+        self::$ActionUriUri = Java(self::$_className)->ActionUriUri;
+        self::$CompositeObjectName = Java(self::$_className)->CompositeObjectName;
+        self::$CompositeButt = Java(self::$_className)->CompositeButt;
+        self::$ImageObjectDrawParam = Java(self::$_className)->ImageObjectDrawParam;
+        self::$ImageObjectDashPattern = Java(self::$_className)->ImageObjectDashPattern;
+        self::$PathObjectMiterLimit = Java(self::$_className)->PathObjectMiterLimit;
+        self::$RadialSegmentColor = Java(self::$_className)->RadialSegmentColor;
+        self::$TextObject100 = Java(self::$_className)->TextObject100;
+        self::$CommonDataTemplatePage = Java(self::$_className)->CommonDataTemplatePage;
+        self::$FontSerif = Java(self::$_className)->FontSerif;
+        self::$CompositeObjectVisible = Java(self::$_className)->CompositeObjectVisible;
+        self::$ExtensionExtendData = Java(self::$_className)->ExtensionExtendData;
+        self::$VectorGSubstitution = Java(self::$_className)->VectorGSubstitution;
+        self::$LaGouraudPoint = Java(self::$_className)->LaGouraudPoint;
+        self::$PathVisible = Java(self::$_className)->PathVisible;
+        self::$PathFillColor = Java(self::$_className)->PathFillColor;
+        self::$PatternYStep = Java(self::$_className)->PatternYStep;
+        self::$PreferencesFileName = Java(self::$_className)->PreferencesFileName;
+        self::$CompositeGraphicUnitsCompositeGraphicUnit = Java(self::$_className)->CompositeGraphicUnitsCompositeGraphicUnit;
+        self::$PreferencesTabDisplay = Java(self::$_className)->PreferencesTabDisplay;
+        self::$SignedInfoProviderCompany = Java(self::$_className)->SignedInfoProviderCompany;
+        self::$MovePoint1 = Java(self::$_className)->MovePoint1;
+        self::$ColorValue = Java(self::$_className)->ColorValue;
+        self::$ContentLayerPathObject = Java(self::$_className)->ContentLayerPathObject;
+        self::$ActionMoviePause = Java(self::$_className)->ActionMoviePause;
+        self::$FontCharset = Java(self::$_className)->FontCharset;
+        self::$ImageObjectSquare = Java(self::$_className)->ImageObjectSquare;
+        self::$ImageBevel = Java(self::$_className)->ImageBevel;
+        self::$PageArea = Java(self::$_className)->PageArea;
+        self::$AxialMapUnit = Java(self::$_className)->AxialMapUnit;
+        self::$CompositeLineWidth = Java(self::$_className)->CompositeLineWidth;
+        self::$DocVersionFileId = Java(self::$_className)->DocVersionFileId;
+        self::$TextTextCode = Java(self::$_className)->TextTextCode;
+        self::$TextStroke = Java(self::$_className)->TextStroke;
+        self::$TextBevel = Java(self::$_className)->TextBevel;
+        self::$UnitRound = Java(self::$_className)->UnitRound;
+        self::$ActionMovieOperator = Java(self::$_className)->ActionMovieOperator;
+        self::$Text1000 = Java(self::$_className)->Text1000;
+        self::$CompositeGraphicUnitSubstitution = Java(self::$_className)->CompositeGraphicUnitSubstitution;
+        self::$CompositeVisible = Java(self::$_className)->CompositeVisible;
+        self::$GouraudPointEdgeFlag = Java(self::$_className)->GouraudPointEdgeFlag;
+        self::$PageBlockObjectPageBlock = Java(self::$_className)->PageBlockObjectPageBlock;
+        self::$PathObjectDrawParam = Java(self::$_className)->PathObjectDrawParam;
+        self::$PageAnnotationHighlight = Java(self::$_className)->PageAnnotationHighlight;
+        self::$ImageObjectMiter = Java(self::$_className)->ImageObjectMiter;
+        self::$PathObjectMiter = Java(self::$_className)->PathObjectMiter;
+        self::$TextDashOffset = Java(self::$_className)->TextDashOffset;
+        self::$DrawParamDashPattern = Java(self::$_className)->DrawParamDashPattern;
+        self::$AxialDirect = Java(self::$_className)->AxialDirect;
+        self::$PageBlockObjectCompositeObject = Java(self::$_className)->PageBlockObjectCompositeObject;
+        self::$LayerObjectPageBlock = Java(self::$_className)->LayerObjectPageBlock;
+        self::$LayerObjectCompositeObject = Java(self::$_className)->LayerObjectCompositeObject;
+        self::$PathObjectCtm = Java(self::$_className)->PathObjectCtm;
+        self::$ColorAxialShd = Java(self::$_className)->ColorAxialShd;
+        self::$FontFontName = Java(self::$_className)->FontFontName;
+        self::$FontsFont = Java(self::$_className)->FontsFont;
+        self::$TextObjectBevel = Java(self::$_className)->TextObjectBevel;
+        self::$PathDashOffset = Java(self::$_className)->PathDashOffset;
+        self::$PageAnnotationReadOnly = Java(self::$_className)->PageAnnotationReadOnly;
+        self::$ImageBorderHorizontalCornerRadius = Java(self::$_className)->ImageBorderHorizontalCornerRadius;
+        self::$TextButt = Java(self::$_className)->TextButt;
+        self::$DrawParamItemRelative = Java(self::$_className)->DrawParamItemRelative;
+        self::$BlockPathObject = Java(self::$_className)->BlockPathObject;
+        self::$AttachmentsAttachment = Java(self::$_className)->AttachmentsAttachment;
+        self::$CompositeObjectBevel = Java(self::$_className)->CompositeObjectBevel;
+        self::$TemplatePageRefName = Java(self::$_className)->TemplatePageRefName;
+        self::$CommonDataMaxUnitId = Java(self::$_className)->CommonDataMaxUnitId;
+        self::$ImageRound = Java(self::$_className)->ImageRound;
+        self::$PermissionPrintCopies = Java(self::$_className)->PermissionPrintCopies;
+        self::$TextWeight = Java(self::$_className)->TextWeight;
+        self::$ContentLayerForeground = Java(self::$_className)->ContentLayerForeground;
+        self::$ImageObjectImageMask = Java(self::$_className)->ImageObjectImageMask;
+        self::$PathObjectActions = Java(self::$_className)->PathObjectActions;
+        self::$DocBodyPages = Java(self::$_className)->DocBodyPages;
+        self::$FontPrc = Java(self::$_className)->FontPrc;
+        self::$MultiMediasMultiMedia = Java(self::$_className)->MultiMediasMultiMedia;
+        self::$TemplateTemplateId = Java(self::$_className)->TemplateTemplateId;
+        self::$CompositeObjectMiterLimit = Java(self::$_className)->CompositeObjectMiterLimit;
+        self::$PageAnnotationPath = Java(self::$_className)->PageAnnotationPath;
+        self::$PathObjectAlpha = Java(self::$_className)->PathObjectAlpha;
+        self::$UnitDashPattern = Java(self::$_className)->UnitDashPattern;
+        self::$CGTransformGlyphCount = Java(self::$_className)->CGTransformGlyphCount;
+        self::$FontItemFontFile = Java(self::$_className)->FontItemFontFile;
+        self::$PathName = Java(self::$_className)->PathName;
+        self::$PathObjectDashPattern = Java(self::$_className)->PathObjectDashPattern;
+        self::$PreferencesTwoColumnR = Java(self::$_className)->PreferencesTwoColumnR;
+        self::$PageAnnotationWatermark = Java(self::$_className)->PageAnnotationWatermark;
+        self::$AttachmentCreationDate = Java(self::$_className)->AttachmentCreationDate;
+        self::$PreferencesTwoColumnL = Java(self::$_className)->PreferencesTwoColumnL;
+        self::$UnitActions = Java(self::$_className)->UnitActions;
+        self::$VersionBaseLoc = Java(self::$_className)->VersionBaseLoc;
+        self::$AxialRepeat = Java(self::$_className)->AxialRepeat;
+        self::$TextObjectDrawParam = Java(self::$_className)->TextObjectDrawParam;
+        self::$PreferencesUseLayers = Java(self::$_className)->PreferencesUseLayers;
+        self::$LayerObjectDrawParam = Java(self::$_className)->LayerObjectDrawParam;
+        self::$SignatureRefType = Java(self::$_className)->SignatureRefType;
+        self::$ColorIndex = Java(self::$_className)->ColorIndex;
+        self::$Text900 = Java(self::$_className)->Text900;
+        self::$TextDrawParam = Java(self::$_className)->TextDrawParam;
+        self::$DrawParamLineWidth = Java(self::$_className)->DrawParamLineWidth;
+        self::$TextObject700 = Java(self::$_className)->TextObject700;
+        self::$TemplateZOrder = Java(self::$_className)->TemplateZOrder;
+        self::$SignaturesSignatures = Java(self::$_className)->SignaturesSignatures;
+        self::$DocInfoDocUsage = Java(self::$_className)->DocInfoDocUsage;
+        self::$CompositeObjectActions = Java(self::$_className)->CompositeObjectActions;
+        self::$ColorLaGourandShd = Java(self::$_className)->ColorLaGourandShd;
+        self::$ImageObjectRound = Java(self::$_className)->ImageObjectRound;
+        self::$ResCompositeGraphicUnits = Java(self::$_className)->ResCompositeGraphicUnits;
+        self::$ContentLayerId = Java(self::$_className)->ContentLayerId;
+        self::$PathSquare = Java(self::$_className)->PathSquare;
+        self::$GouraudPoint2 = Java(self::$_className)->GouraudPoint2;
+        self::$OutlineElemTitle = Java(self::$_className)->OutlineElemTitle;
+        self::$GouraudPoint1 = Java(self::$_className)->GouraudPoint1;
+        self::$GouraudPoint0 = Java(self::$_className)->GouraudPoint0;
+        self::$ArcRotationAngle = Java(self::$_className)->ArcRotationAngle;
+        self::$PathCap = Java(self::$_className)->PathCap;
+        self::$ColorSpaceRgb = Java(self::$_className)->ColorSpaceRgb;
+        self::$BlockImageObject = Java(self::$_className)->BlockImageObject;
+        self::$MultiMediaItemImage = Java(self::$_className)->MultiMediaItemImage;
+        self::$TextObjectFill = Java(self::$_className)->TextObjectFill;
+        self::$QuadraticBezierPoint1 = Java(self::$_className)->QuadraticBezierPoint1;
+        self::$QuadraticBezierPoint2 = Java(self::$_className)->QuadraticBezierPoint2;
+        self::$ContentLayerCompositeObject = Java(self::$_className)->ContentLayerCompositeObject;
+        self::$TextDashPattern = Java(self::$_className)->TextDashPattern;
+        self::$CompositeObjectId = Java(self::$_className)->CompositeObjectId;
+        self::$ColorSpaceItemRgb = Java(self::$_className)->ColorSpaceItemRgb;
+        self::$LayerObjectForeground = Java(self::$_className)->LayerObjectForeground;
+        self::$LaGouraudBackColor = Java(self::$_className)->LaGouraudBackColor;
+        self::$BlockCompositeObject = Java(self::$_className)->BlockCompositeObject;
+        self::$PreferencesZoomMode = Java(self::$_className)->PreferencesZoomMode;
+        self::$ActionMoviePlay = Java(self::$_className)->ActionMoviePlay;
+        self::$ImageObjectId = Java(self::$_className)->ImageObjectId;
+        self::$PathObjectVisible = Java(self::$_className)->PathObjectVisible;
+        self::$TextObjectLineWidth = Java(self::$_className)->TextObjectLineWidth;
+        self::$PreferencesOnePage = Java(self::$_className)->PreferencesOnePage;
+        self::$ClipAreaPath = Java(self::$_className)->ClipAreaPath;
+        self::$ImageName = Java(self::$_className)->ImageName;
+        self::$CompositeDashPattern = Java(self::$_className)->CompositeDashPattern;
+        self::$MultiMediaType = Java(self::$_className)->MultiMediaType;
+        self::$DocBodyRefDocInfo = Java(self::$_className)->DocBodyRefDocInfo;
+        self::$ImageDashOffset = Java(self::$_className)->ImageDashOffset;
+        self::$SignaturesSignature = Java(self::$_className)->SignaturesSignature;
+        self::$ActionSound = Java(self::$_className)->ActionSound;
+        self::$TextObject600 = Java(self::$_className)->TextObject600;
+        self::$TextName = Java(self::$_className)->TextName;
+        self::$Text800 = Java(self::$_className)->Text800;
+        self::$ImageObjectClips = Java(self::$_className)->ImageObjectClips;
+        self::$ArcSweepDirection = Java(self::$_className)->ArcSweepDirection;
+        self::$ImageObjectLineWidth = Java(self::$_className)->ImageObjectLineWidth;
+        self::$ColorRadialShd = Java(self::$_className)->ColorRadialShd;
+        self::$PermissionSignature = Java(self::$_className)->PermissionSignature;
+        self::$ActionEvent = Java(self::$_className)->ActionEvent;
+        self::$ImageObjectResourceId = Java(self::$_className)->ImageObjectResourceId;
+        self::$SignatureSignedValue = Java(self::$_className)->SignatureSignedValue;
+        self::$CompositeJoin = Java(self::$_className)->CompositeJoin;
+        self::$DocInfoCustomDatas = Java(self::$_className)->DocInfoCustomDatas;
+        self::$FontJohab = Java(self::$_className)->FontJohab;
+        self::$PreferencesPageLayout = Java(self::$_className)->PreferencesPageLayout;
+        self::$PathRule = Java(self::$_className)->PathRule;
+        self::$RootVersion = Java(self::$_className)->RootVersion;
+        self::$LaGouraudVerticesPerRow = Java(self::$_className)->LaGouraudVerticesPerRow;
+        self::$AttachmentName = Java(self::$_className)->AttachmentName;
+        self::$TextObjectDashOffset = Java(self::$_className)->TextObjectDashOffset;
+        self::$PathObjectEvenOdd = Java(self::$_className)->PathObjectEvenOdd;
+        self::$DocInfoSubject = Java(self::$_className)->DocInfoSubject;
+        self::$CompositeCtm = Java(self::$_className)->CompositeCtm;
+        self::$ImageBorderLineWidth = Java(self::$_className)->ImageBorderLineWidth;
+        self::$CubicBezierPoint1 = Java(self::$_className)->CubicBezierPoint1;
+        self::$CubicBezierPoint2 = Java(self::$_className)->CubicBezierPoint2;
+        self::$CompositeObjectCtm = Java(self::$_className)->CompositeObjectCtm;
+        self::$CubicBezierPoint3 = Java(self::$_className)->CubicBezierPoint3;
+        self::$DrawParamItemFillColor = Java(self::$_className)->DrawParamItemFillColor;
+        self::$FontItemWansung = Java(self::$_className)->FontItemWansung;
+        self::$PreferencesUseBookmarks = Java(self::$_className)->PreferencesUseBookmarks;
+        self::$ResDrawParams = Java(self::$_className)->ResDrawParams;
+        self::$UnitCap = Java(self::$_className)->UnitCap;
+        self::$VectorGContent = Java(self::$_className)->VectorGContent;
+        self::$TextMiterLimit = Java(self::$_className)->TextMiterLimit;
+        self::$CommonDataDefaultCS = Java(self::$_className)->CommonDataDefaultCS;
+        self::$GouraudPointColor = Java(self::$_className)->GouraudPointColor;
+        self::$ResRes = Java(self::$_className)->ResRes;
+        self::$PatternWidth = Java(self::$_className)->PatternWidth;
+        self::$TextObjectStrokeColor = Java(self::$_className)->TextObjectStrokeColor;
+        self::$DrawParamItemDashOffset = Java(self::$_className)->DrawParamItemDashOffset;
+        self::$PreferencesDocTitle = Java(self::$_className)->PreferencesDocTitle;
+        self::$ColorSpaceGray = Java(self::$_className)->ColorSpaceGray;
+        self::$ImageObjectName = Java(self::$_className)->ImageObjectName;
+        self::$GouraudPointY = Java(self::$_className)->GouraudPointY;
+        self::$GouraudPointX = Java(self::$_className)->GouraudPointX;
+        self::$DocBodyRefDocRoot = Java(self::$_className)->DocBodyRefDocRoot;
+        self::$CGTransformGlyphs = Java(self::$_className)->CGTransformGlyphs;
+        self::$TextObject500 = Java(self::$_className)->TextObject500;
+        self::$PageAnnotationLink = Java(self::$_className)->PageAnnotationLink;
+        self::$AxialSegmentColor = Java(self::$_className)->AxialSegmentColor;
+        self::$CompositeDrawParam = Java(self::$_className)->CompositeDrawParam;
+        self::$TextSquare = Java(self::$_className)->TextSquare;
+        self::$PatternRowAndColumn = Java(self::$_className)->PatternRowAndColumn;
+        self::$PathObjectRule = Java(self::$_className)->PathObjectRule;
+        self::$ClipAreaDrawParam = Java(self::$_className)->ClipAreaDrawParam;
+        self::$TextItalic = Java(self::$_className)->TextItalic;
+        self::$PageAnnotationParameters = Java(self::$_className)->PageAnnotationParameters;
+        self::$TextObjectMiter = Java(self::$_className)->TextObjectMiter;
+        self::$RootDocType = Java(self::$_className)->RootDocType;
+        self::$PageAnnotationsAnnot = Java(self::$_className)->PageAnnotationsAnnot;
+        self::$ActionRegion = Java(self::$_className)->ActionRegion;
+        self::$RadialRepeat = Java(self::$_className)->RadialRepeat;
+        self::$FontItemShiftJis = Java(self::$_className)->FontItemShiftJis;
+        self::$FontBig5 = Java(self::$_className)->FontBig5;
+        self::$AxialEndPoint = Java(self::$_className)->AxialEndPoint;
+        self::$TextObjectAlpha = Java(self::$_className)->TextObjectAlpha;
+        self::$ColorSpaceItemCmyk = Java(self::$_className)->ColorSpaceItemCmyk;
+        self::$ImageObjectDashOffset = Java(self::$_className)->ImageObjectDashOffset;
+        self::$ColorAlpha = Java(self::$_className)->ColorAlpha;
+        self::$TextClips = Java(self::$_className)->TextClips;
+        self::$PatternCellContentPageBlock = Java(self::$_className)->PatternCellContentPageBlock;
+        self::$FontItemSymbol = Java(self::$_className)->FontItemSymbol;
+        self::$DrawParamsDrawParam = Java(self::$_className)->DrawParamsDrawParam;
+        self::$PermissionPrintPrintable = Java(self::$_className)->PermissionPrintPrintable;
+        self::$PreferencesFitWidth = Java(self::$_className)->PreferencesFitWidth;
+        self::$AnnotationsCollectionPage = Java(self::$_className)->AnnotationsCollectionPage;
+        self::$ImageClips = Java(self::$_className)->ImageClips;
+        self::$MultiMediaFormat = Java(self::$_className)->MultiMediaFormat;
+        self::$ActionSoundRepeat = Java(self::$_className)->ActionSoundRepeat;
+        self::$AttachmentId = Java(self::$_className)->AttachmentId;
+        self::$ResColorSpaces = Java(self::$_className)->ResColorSpaces;
+        self::$PathObjectBoundary = Java(self::$_className)->PathObjectBoundary;
+        self::$AttachmentFileLoc = Java(self::$_className)->AttachmentFileLoc;
+        self::$ExtensionProperty = Java(self::$_className)->ExtensionProperty;
+        self::$TextCap = Java(self::$_className)->TextCap;
+        self::$CompositeClips = Java(self::$_className)->CompositeClips;
+        self::$ActionGoto = Java(self::$_className)->ActionGoto;
+        self::$PathObjectLineWidth = Java(self::$_className)->PathObjectLineWidth;
+        self::$TextObjectJoin = Java(self::$_className)->TextObjectJoin;
+        self::$AttachmentUsage = Java(self::$_className)->AttachmentUsage;
+        self::$ActionSoundSynchronous = Java(self::$_className)->ActionSoundSynchronous;
+        self::$MultiMediaImage = Java(self::$_className)->MultiMediaImage;
+        self::$PatternPage = Java(self::$_className)->PatternPage;
+        self::$DocInfoCreator = Java(self::$_className)->DocInfoCreator;
+        self::$TextHScale = Java(self::$_className)->TextHScale;
+        self::$ExtensionAppVersion = Java(self::$_className)->ExtensionAppVersion;
+        self::$SignatureSignedInfo = Java(self::$_className)->SignatureSignedInfo;
+        self::$AnnotationAppearanceTextObject = Java(self::$_className)->AnnotationAppearanceTextObject;
+        self::$RegionAreaStart = Java(self::$_className)->RegionAreaStart;
+        self::$TextObject400 = Java(self::$_className)->TextObject400;
+        self::$PageAnnotationType = Java(self::$_className)->PageAnnotationType;
+        self::$ImageDrawParam = Java(self::$_className)->ImageDrawParam;
+        self::$PermissionValidPeriodStartDate = Java(self::$_className)->PermissionValidPeriodStartDate;
+        self::$GouraudExtend = Java(self::$_className)->GouraudExtend;
+        self::$FontBold = Java(self::$_className)->FontBold;
+        self::$SignedInfoReferencesMD5 = Java(self::$_className)->SignedInfoReferencesMD5;
+        self::$PageBlockObjectTextObject = Java(self::$_className)->PageBlockObjectTextObject;
+        self::$PatternObject = Java(self::$_className)->PatternObject;
+        self::$LayerObjectTextObject = Java(self::$_className)->LayerObjectTextObject;
+        self::$PathFill = Java(self::$_className)->PathFill;
+        self::$ImageJoin = Java(self::$_className)->ImageJoin;
+        self::$DrawParamItemStrokeColor = Java(self::$_className)->DrawParamItemStrokeColor;
+        self::$TextObjectId = Java(self::$_className)->TextObjectId;
+        self::$PermissionPrintScreen = Java(self::$_className)->PermissionPrintScreen;
+        self::$SignedInfoReferences = Java(self::$_className)->SignedInfoReferences;
+        self::$FontFontFile = Java(self::$_className)->FontFontFile;
+        self::$PathDashPattern = Java(self::$_className)->PathDashPattern;
+        self::$ImageMiterLimit = Java(self::$_className)->ImageMiterLimit;
+        self::$CompositeObjectDrawParam = Java(self::$_className)->CompositeObjectDrawParam;
+        self::$ResBaseLoc = Java(self::$_className)->ResBaseLoc;
+        self::$PermissionEdit = Java(self::$_className)->PermissionEdit;
+        self::$PathObjectDashOffset = Java(self::$_className)->PathObjectDashOffset;
+        self::$DrawParamStrokeColor = Java(self::$_className)->DrawParamStrokeColor;
+        self::$DocBodyAnnotations = Java(self::$_className)->DocBodyAnnotations;
+        self::$ActionGotoBookmark = Java(self::$_className)->ActionGotoBookmark;
+        self::$DocBodyBookmarks = Java(self::$_className)->DocBodyBookmarks;
+        self::$SignedInfoReferencesReference = Java(self::$_className)->SignedInfoReferencesReference;
+        self::$ColorSpaceCmyk = Java(self::$_className)->ColorSpaceCmyk;
+        self::$CompositeSquare = Java(self::$_className)->CompositeSquare;
+        self::$UnitDrawParam = Java(self::$_className)->UnitDrawParam;
+        self::$UnitMiterLimit = Java(self::$_className)->UnitMiterLimit;
+        self::$ImageObjectMiterLimit = Java(self::$_className)->ImageObjectMiterLimit;
+        self::$AxialMapType = Java(self::$_className)->AxialMapType;
+        self::$PathObjectCap = Java(self::$_className)->PathObjectCap;
+        self::$CompositeBoundary = Java(self::$_className)->CompositeBoundary;
+        self::$DestinationRight = Java(self::$_className)->DestinationRight;
+        self::$ColorSpaceItemGray = Java(self::$_className)->ColorSpaceItemGray;
+        self::$CustomTagsCustomTag = Java(self::$_className)->CustomTagsCustomTag;
+        self::$ContentLayer = Java(self::$_className)->ContentLayer;
+        self::$TemplatePageRefBackground = Java(self::$_className)->TemplatePageRefBackground;
+        self::$SignedInfoSealBaseLoc = Java(self::$_className)->SignedInfoSealBaseLoc;
+        self::$ImageObjectButt = Java(self::$_className)->ImageObjectButt;
+        self::$UnitLineWidth = Java(self::$_className)->UnitLineWidth;
+        self::$PreferencesFitRect = Java(self::$_className)->PreferencesFitRect;
+        self::$CompositeObjectLineWidth = Java(self::$_className)->CompositeObjectLineWidth;
+        self::$Text500 = Java(self::$_className)->Text500;
+        self::$CommonDataDocumentRes = Java(self::$_className)->CommonDataDocumentRes;
+        self::$AnnotationAppearanceCompositeObject = Java(self::$_className)->AnnotationAppearanceCompositeObject;
+        self::$PageBlockObjectImageObject = Java(self::$_className)->PageBlockObjectImageObject;
+        self::$PatternRow = Java(self::$_className)->PatternRow;
+        self::$ImageBorderDashOffset = Java(self::$_className)->ImageBorderDashOffset;
+        self::$ContentLayerDrawParam = Java(self::$_className)->ContentLayerDrawParam;
+        self::$CompositeObjectJoin = Java(self::$_className)->CompositeObjectJoin;
+        self::$DrawParamMiter = Java(self::$_className)->DrawParamMiter;
+        self::$TemplatePageRefBaseLoc = Java(self::$_className)->TemplatePageRefBaseLoc;
+        self::$SignedInfoSignatureMethod = Java(self::$_className)->SignedInfoSignatureMethod;
+        self::$ImageObjectAlpha = Java(self::$_className)->ImageObjectAlpha;
+        self::$PermissionWatermark = Java(self::$_className)->PermissionWatermark;
+        self::$UnitClips = Java(self::$_className)->UnitClips;
+        self::$PathJoin = Java(self::$_className)->PathJoin;
+        self::$UnitSquare = Java(self::$_className)->UnitSquare;
+        self::$PreferencesNone = Java(self::$_className)->PreferencesNone;
+        self::$RadialExtend = Java(self::$_className)->RadialExtend;
+        self::$PreferencesHideMenubar = Java(self::$_className)->PreferencesHideMenubar;
+        self::$MultiMediaMediaFile = Java(self::$_className)->MultiMediaMediaFile;
+        self::$PatternCellContent = Java(self::$_className)->PatternCellContent;
+        self::$TextObjectCap = Java(self::$_className)->TextObjectCap;
+        self::$PathStroke = Java(self::$_className)->PathStroke;
+        self::$Text400 = Java(self::$_className)->Text400;
+        self::$RadialSegment = Java(self::$_className)->RadialSegment;
+        self::$ImageLineWidth = Java(self::$_className)->ImageLineWidth;
+        self::$DocumentPageRefBaseLoc = Java(self::$_className)->DocumentPageRefBaseLoc;
+        self::$ContentLayerTextObject = Java(self::$_className)->ContentLayerTextObject;
+        self::$TemplateForeground = Java(self::$_className)->TemplateForeground;
+        self::$ColorSpaceBitsPerComponent = Java(self::$_className)->ColorSpaceBitsPerComponent;
+        self::$SignedInfoReferenceFileRef = Java(self::$_className)->SignedInfoReferenceFileRef;
+        self::$ImageCtm = Java(self::$_className)->ImageCtm;
+        self::$ClipAreaText = Java(self::$_className)->ClipAreaText;
+        self::$VectorGWidth = Java(self::$_className)->VectorGWidth;
+        self::$PreferencesFullScreen = Java(self::$_className)->PreferencesFullScreen;
+        self::$BlockTextObject = Java(self::$_className)->BlockTextObject;
+        self::$PatternCtm = Java(self::$_className)->PatternCtm;
+        self::$RegionAreaQuadraticBezier = Java(self::$_className)->RegionAreaQuadraticBezier;
+        self::$AreaApplicationBox = Java(self::$_className)->AreaApplicationBox;
+        self::$AxialExtend = Java(self::$_className)->AxialExtend;
+        self::$CompositeRound = Java(self::$_className)->CompositeRound;
+        self::$DocVersionDocRoot = Java(self::$_className)->DocVersionDocRoot;
+        self::$PermissionValidPeriodEndDate = Java(self::$_className)->PermissionValidPeriodEndDate;
+        self::$PathBoundary = Java(self::$_className)->PathBoundary;
+        self::$UnitJoin = Java(self::$_className)->UnitJoin;
+        self::$UnitVisible = Java(self::$_className)->UnitVisible;
+        self::$ImageBorder = Java(self::$_className)->ImageBorder;
+        self::$ImageBorderBorderColor = Java(self::$_className)->ImageBorderBorderColor;
+        self::$ImageResourceId = Java(self::$_className)->ImageResourceId;
+        self::$PathObjectSquare = Java(self::$_className)->PathObjectSquare;
+        self::$PreferencesZoom = Java(self::$_className)->PreferencesZoom;
+        self::$DestinationLeft = Java(self::$_className)->DestinationLeft;
+        self::$DrawParamItemCap = Java(self::$_className)->DrawParamItemCap;
+        self::$DocBodyCustomTags = Java(self::$_className)->DocBodyCustomTags;
+        self::$ClipArea = Java(self::$_className)->ClipArea;
+        self::$TextObjectFont = Java(self::$_className)->TextObjectFont;
+        self::$PathButt = Java(self::$_className)->PathButt;
+        self::$CompositeObjectResourceId = Java(self::$_className)->CompositeObjectResourceId;
+        self::$TextObjectWeight = Java(self::$_className)->TextObjectWeight;
+        self::$OutlineElemOutlineElem = Java(self::$_className)->OutlineElemOutlineElem;
+        self::$SignedInfoSignatureDateTime = Java(self::$_className)->SignedInfoSignatureDateTime;
+        self::$RadialEndPoint = Java(self::$_className)->RadialEndPoint;
+        self::$DocBodyVPreferences = Java(self::$_className)->DocBodyVPreferences;
+        self::$ExtensionDate = Java(self::$_className)->ExtensionDate;
+        self::$SignedInfoStampAnnotId = Java(self::$_className)->SignedInfoStampAnnotId;
+        self::$ContentLayerCustom = Java(self::$_className)->ContentLayerCustom;
+        self::$TextObjectVisible = Java(self::$_className)->TextObjectVisible;
+        self::$CompositeBevel = Java(self::$_className)->CompositeBevel;
+        self::$TextCodeY = Java(self::$_className)->TextCodeY;
+        self::$TextCodeX = Java(self::$_className)->TextCodeX;
+        self::$ActionMovie = Java(self::$_className)->ActionMovie;
+        self::$RadialMapType = Java(self::$_className)->RadialMapType;
+        self::$VectorGHeight = Java(self::$_className)->VectorGHeight;
+        self::$DocBodyCommonData = Java(self::$_className)->DocBodyCommonData;
+        self::$SignatureRefSign = Java(self::$_className)->SignatureRefSign;
+        self::$PatternCellContentImageObject = Java(self::$_className)->PatternCellContentImageObject;
+        self::$PathAbbreviatedData = Java(self::$_className)->PathAbbreviatedData;
+        self::$TextObject900 = Java(self::$_className)->TextObject900;
+        self::$DrawParamItemLineWidth = Java(self::$_className)->DrawParamItemLineWidth;
+        self::$TextObjectMiterLimit = Java(self::$_className)->TextObjectMiterLimit;
+        self::$PathClips = Java(self::$_className)->PathClips;
+        self::$DocInfoCreationDate = Java(self::$_className)->DocInfoCreationDate;
+        self::$TextObjectTextCode = Java(self::$_className)->TextObjectTextCode;
+        self::$PageBlockObjectId = Java(self::$_className)->PageBlockObjectId;
+        self::$Text700 = Java(self::$_className)->Text700;
+        self::$RadialDirect = Java(self::$_className)->RadialDirect;
+        self::$DocVersionFileList = Java(self::$_className)->DocVersionFileList;
+        self::$ColorColorSpace = Java(self::$_className)->ColorColorSpace;
+        self::$CGTransformCodeCount = Java(self::$_className)->CGTransformCodeCount;
+        self::$ActionSoundVolume = Java(self::$_className)->ActionSoundVolume;
+        self::$PageAnnotationStamp = Java(self::$_className)->PageAnnotationStamp;
+        self::$FontWansung = Java(self::$_className)->FontWansung;
+        self::$UnitBoundary = Java(self::$_className)->UnitBoundary;
+        self::$SignatureSignature = Java(self::$_className)->SignatureSignature;
+        self::$DocVersionCreationDate = Java(self::$_className)->DocVersionCreationDate;
+        self::$TextObjectSize = Java(self::$_className)->TextObjectSize;
+        self::$PagePage = Java(self::$_className)->PagePage;
+        self::$TextObjectCGTransform = Java(self::$_className)->TextObjectCGTransform;
+        self::$LayerObjectImageObject = Java(self::$_className)->LayerObjectImageObject;
+        self::$ImageSquare = Java(self::$_className)->ImageSquare;
+        self::$PathObjectFillColor = Java(self::$_className)->PathObjectFillColor;
+        self::$ActionGotoBookmarkName = Java(self::$_className)->ActionGotoBookmarkName;
+        self::$OutlineElemExpanded = Java(self::$_className)->OutlineElemExpanded;
+        self::$DrawParamItemMiterLimit = Java(self::$_className)->DrawParamItemMiterLimit;
+        self::$CustomDataName = Java(self::$_className)->CustomDataName;
+        self::$CompositeGraphicUnitThumbnail = Java(self::$_className)->CompositeGraphicUnitThumbnail;
+        self::$ArcLargeArc = Java(self::$_className)->ArcLargeArc;
+        self::$ArcEndPoint = Java(self::$_className)->ArcEndPoint;
+        self::$ExtensionRefId = Java(self::$_className)->ExtensionRefId;
+        self::$SignatureRefId = Java(self::$_className)->SignatureRefId;
+        self::$ContentLayerBackground = Java(self::$_className)->ContentLayerBackground;
+        self::$AreaContentBox = Java(self::$_className)->AreaContentBox;
+        self::$SignedInfoReferencesSHA1 = Java(self::$_className)->SignedInfoReferencesSHA1;
+        self::$ImageObjectCap = Java(self::$_className)->ImageObjectCap;
+        self::$ContentLayerBody = Java(self::$_className)->ContentLayerBody;
+        self::$DrawParamMiterLimit = Java(self::$_className)->DrawParamMiterLimit;
+        self::$OutlineElemCount = Java(self::$_className)->OutlineElemCount;
+        self::$PermissionPrint = Java(self::$_className)->PermissionPrint;
+        self::$DocInfoTitle = Java(self::$_className)->DocInfoTitle;
+        self::$TextActions = Java(self::$_className)->TextActions;
+        self::$TextSize = Java(self::$_className)->TextSize;
+        self::$PathDrawParam = Java(self::$_className)->PathDrawParam;
+        self::$ActionMovieResourceId = Java(self::$_className)->ActionMovieResourceId;
+        self::$AxialSegment = Java(self::$_className)->AxialSegment;
+        self::$ColorSpaceProfile = Java(self::$_className)->ColorSpaceProfile;
+        self::$DestinationPageId = Java(self::$_className)->DestinationPageId;
+        self::$FontItemSerif = Java(self::$_className)->FontItemSerif;
+        self::$ActionGotoA = Java(self::$_className)->ActionGotoA;
+        self::$AttachmentVisible = Java(self::$_className)->AttachmentVisible;
+        self::$SignedInfoReferencesCheckMethod = Java(self::$_className)->SignedInfoReferencesCheckMethod;
+        self::$DocVersionDocVersion = Java(self::$_className)->DocVersionDocVersion;
+        self::$SignatureRefSeal = Java(self::$_className)->SignatureRefSeal;
+        self::$ImageObjectSubstitution = Java(self::$_className)->ImageObjectSubstitution;
+        self::$LayerObjectBody = Java(self::$_className)->LayerObjectBody;
+        self::$TextObject800 = Java(self::$_className)->TextObject800;
+        self::$TextObjectRound = Java(self::$_className)->TextObjectRound;
+        self::$ImageButt = Java(self::$_className)->ImageButt;
+        self::$Text600 = Java(self::$_className)->Text600;
+        self::$PatternRelativeTo = Java(self::$_className)->PatternRelativeTo;
+        self::$CompositeObjectAlpha = Java(self::$_className)->CompositeObjectAlpha;
+        self::$TextObject1000 = Java(self::$_className)->TextObject1000;
+        self::$ColorSpaceItemType = Java(self::$_className)->ColorSpaceItemType;
+        self::$ContentLayerType = Java(self::$_className)->ContentLayerType;
+        self::$BookmarkDest = Java(self::$_className)->BookmarkDest;
+        self::$LayerObjectCustom = Java(self::$_className)->LayerObjectCustom;
+        self::$LayerObjectId = Java(self::$_className)->LayerObjectId;
+        self::$PatternCellContentTextObject = Java(self::$_className)->PatternCellContentTextObject;
+        self::$AnnotationAppearanceBoundary = Java(self::$_className)->AnnotationAppearanceBoundary;
+        self::$DrawParamFillColor = Java(self::$_className)->DrawParamFillColor;
+        self::$FontFixedWidth = Java(self::$_className)->FontFixedWidth;
+        self::$TemplatePageRefId = Java(self::$_className)->TemplatePageRefId;
+        self::$CompositeGraphicUnitContent = Java(self::$_className)->CompositeGraphicUnitContent;
+        self::$TextStrokeColor = Java(self::$_className)->TextStrokeColor;
+        self::$AttachmentsAttachments = Java(self::$_className)->AttachmentsAttachments;
+        self::$BookmarkName = Java(self::$_className)->BookmarkName;
+        self::$ActionGotoANewWindow = Java(self::$_className)->ActionGotoANewWindow;
+        self::$ImageObjectVisible = Java(self::$_className)->ImageObjectVisible;
+        self::$TextLineWidth = Java(self::$_className)->TextLineWidth;
+        self::$ImageObjectJoin = Java(self::$_className)->ImageObjectJoin;
+        self::$CompositeObjectButt = Java(self::$_className)->CompositeObjectButt;
+        self::$ActionUriBase = Java(self::$_className)->ActionUriBase;
+        self::$TextFillColor = Java(self::$_className)->TextFillColor;
+        self::$AxialReflect = Java(self::$_className)->AxialReflect;
+        self::$FontItemId = Java(self::$_className)->FontItemId;
+        self::$LaGouraudPointColor = Java(self::$_className)->LaGouraudPointColor;
+        self::$DocBodyExtensions = Java(self::$_className)->DocBodyExtensions;
+        self::$GouraudPoint = Java(self::$_className)->GouraudPoint;
+        self::$PreferencesPageMode = Java(self::$_className)->PreferencesPageMode;
+        self::$TextCGTransform = Java(self::$_className)->TextCGTransform;
+        self::$AnnotationsPagePageId = Java(self::$_className)->AnnotationsPagePageId;
+        self::$TextObjectFillColor = Java(self::$_className)->TextObjectFillColor;
+        self::$TextObjectSquare = Java(self::$_className)->TextObjectSquare;
+        self::$TextBoundary = Java(self::$_className)->TextBoundary;
+        self::$TextObjectItalic = Java(self::$_className)->TextObjectItalic;
+        self::$TextMiter = Java(self::$_className)->TextMiter;
+        self::$SignedInfoStampAnnotPageRef = Java(self::$_className)->SignedInfoStampAnnotPageRef;
+        self::$Text100 = Java(self::$_className)->Text100;
+        self::$CompositeObjectMiter = Java(self::$_className)->CompositeObjectMiter;
+        self::$MultiMediaItemFormat = Java(self::$_className)->MultiMediaItemFormat;
+        self::$PathObjectFill = Java(self::$_className)->PathObjectFill;
+        self::$PathActions = Java(self::$_className)->PathActions;
+        self::$TextCtm = Java(self::$_className)->TextCtm;
+        self::$RegionAreaCubicBezier = Java(self::$_className)->RegionAreaCubicBezier;
+        self::$TemplatePageRefZOrder = Java(self::$_className)->TemplatePageRefZOrder;
+        self::$TextFont = Java(self::$_className)->TextFont;
+        self::$PathObjectClips = Java(self::$_className)->PathObjectClips;
+        self::$DocBodyDocument = Java(self::$_className)->DocBodyDocument;
+        self::$PathEvenOdd = Java(self::$_className)->PathEvenOdd;
+        self::$CompositeResourceId = Java(self::$_className)->CompositeResourceId;
+        self::$ImageObjectBoundary = Java(self::$_className)->ImageObjectBoundary;
+        self::$CompositeMiter = Java(self::$_className)->CompositeMiter;
+        self::$TextVisible = Java(self::$_className)->TextVisible;
+        self::$SignedInfoProviderVersion = Java(self::$_className)->SignedInfoProviderVersion;
+        self::$CompositeActions = Java(self::$_className)->CompositeActions;
+        self::$FontItemCharset = Java(self::$_className)->FontItemCharset;
+        self::$ResMultiMedias = Java(self::$_className)->ResMultiMedias;
+        self::$CompositeMiterLimit = Java(self::$_className)->CompositeMiterLimit;
+        self::$ImageMiter = Java(self::$_className)->ImageMiter;
+        self::$CommonDataPublicRes = Java(self::$_className)->CommonDataPublicRes;
+        self::$RadialEndRadius = Java(self::$_className)->RadialEndRadius;
+        self::$GouraudBackColor = Java(self::$_className)->GouraudBackColor;
+        self::$VersionCurrent = Java(self::$_className)->VersionCurrent;
+        self::$PathAlpha = Java(self::$_className)->PathAlpha;
+        self::$DestinationZoom = Java(self::$_className)->DestinationZoom;
+        self::$DocInfoModDate = Java(self::$_className)->DocInfoModDate;
+        self::$ColorPattern = Java(self::$_className)->ColorPattern;
+        self::$PreferencesUseThumbs = Java(self::$_className)->PreferencesUseThumbs;
+        self::$PreferencesTwoPageL = Java(self::$_className)->PreferencesTwoPageL;
+        self::$RootDocBody = Java(self::$_className)->RootDocBody;
+        self::$ImageBorderDashPattern = Java(self::$_className)->ImageBorderDashPattern;
+        self::$RadialEccentricity = Java(self::$_className)->RadialEccentricity;
+        self::$PreferencesTwoPageR = Java(self::$_className)->PreferencesTwoPageR;
+        self::$ColorSpaceItemPalette = Java(self::$_className)->ColorSpaceItemPalette;
+        self::$BlockPageBlock = Java(self::$_className)->BlockPageBlock;
+        self::$ImageActions = Java(self::$_className)->ImageActions;
+        self::$CompositeDashOffset = Java(self::$_className)->CompositeDashOffset;
+        self::$DocBodyAttachments = Java(self::$_className)->DocBodyAttachments;
+        self::$CompositeObjectCap = Java(self::$_className)->CompositeObjectCap;
+        self::$CustomTagNameSpace = Java(self::$_className)->CustomTagNameSpace;
+        self::$DocInfoCover = Java(self::$_className)->DocInfoCover;
+        self::$ImageSubstitution = Java(self::$_className)->ImageSubstitution;
+        self::$ImageImageMask = Java(self::$_className)->ImageImageMask;
+        self::$PageAnnotationAppearance = Java(self::$_className)->PageAnnotationAppearance;
+        self::$PageTemplate = Java(self::$_className)->PageTemplate;
+        self::$CustomTagsCustomTags = Java(self::$_className)->CustomTagsCustomTags;
+        self::$ExtensionCompany = Java(self::$_className)->ExtensionCompany;
+        self::$ImageBorderVerticalCornerRadius = Java(self::$_className)->ImageBorderVerticalCornerRadius;
+        self::$FontItemBold = Java(self::$_className)->FontItemBold;
+        self::$DocVersionId = Java(self::$_className)->DocVersionId;
+        self::$UnitMiter = Java(self::$_className)->UnitMiter;
+        self::$ArcEllipseSize = Java(self::$_className)->ArcEllipseSize;
+        self::$PageAnnotationsPageAnnot = Java(self::$_className)->PageAnnotationsPageAnnot;
+        self::$RadialStartRadius = Java(self::$_className)->RadialStartRadius;
+        self::$PathMiterLimit = Java(self::$_className)->PathMiterLimit;
+        self::$LinePoint1 = Java(self::$_className)->LinePoint1;
+        self::$AnnotationsCollectionAnnotations = Java(self::$_className)->AnnotationsCollectionAnnotations;
+        self::$PreferencesUseAttatchs = Java(self::$_className)->PreferencesUseAttatchs;
+        self::$PatternCellContentPathObject = Java(self::$_className)->PatternCellContentPathObject;
+        self::$FontItemFixedWidth = Java(self::$_className)->FontItemFixedWidth;
+        self::$AttachmentModDate = Java(self::$_className)->AttachmentModDate;
+        self::$PathCtm = Java(self::$_className)->PathCtm;
+        self::$LayerObjectPathObject = Java(self::$_className)->LayerObjectPathObject;
+        self::$RegionAreaLine = Java(self::$_className)->RegionAreaLine;
+        self::$DocumentPageRefId = Java(self::$_className)->DocumentPageRefId;
+        self::$TextObjectCharDirection = Java(self::$_className)->TextObjectCharDirection;
+        self::$LayerObjectBackground = Java(self::$_className)->LayerObjectBackground;
+        self::$UnitDashOffset = Java(self::$_className)->UnitDashOffset;
+        self::$PageAnnotationNoZoom = Java(self::$_className)->PageAnnotationNoZoom;
+        self::$ColorSpaceItemProfile = Java(self::$_className)->ColorSpaceItemProfile;
+        self::$AxialStartPoint = Java(self::$_className)->AxialStartPoint;
+        self::$SignedInfoStampAnnotClip = Java(self::$_className)->SignedInfoStampAnnotClip;
+        self::$DocBodyRefVersions = Java(self::$_className)->DocBodyRefVersions;
+        self::$DocInfoAuthor = Java(self::$_className)->DocInfoAuthor;
+        self::$RadialAngle = Java(self::$_className)->RadialAngle;
+        self::$DocInfoKeywords = Java(self::$_className)->DocInfoKeywords;
+        self::$TextObjectClips = Java(self::$_className)->TextObjectClips;
+        self::$Text300 = Java(self::$_className)->Text300;
+        self::$FontSymbol = Java(self::$_className)->FontSymbol;
+        self::$TextObjectDashPattern = Java(self::$_className)->TextObjectDashPattern;
+        self::$PageAnnotationPrint = Java(self::$_className)->PageAnnotationPrint;
+        self::$UnitButt = Java(self::$_className)->UnitButt;
+        self::$VectorGThumbnail = Java(self::$_className)->VectorGThumbnail;
+        self::$PageBlockObjectPathObject = Java(self::$_className)->PageBlockObjectPathObject;
+        self::$UnitAlpha = Java(self::$_className)->UnitAlpha;
+        self::$SignedInfoReferenceCheckValue = Java(self::$_className)->SignedInfoReferenceCheckValue;
+        self::$PathObjectRound = Java(self::$_className)->PathObjectRound;
+        self::$PatternNormal = Java(self::$_className)->PatternNormal;
+        self::$PatternCellContentThumbnail = Java(self::$_className)->PatternCellContentThumbnail;
+        self::$ExtensionsExtensions = Java(self::$_className)->ExtensionsExtensions;
+        self::$TextCodeDeltaY = Java(self::$_className)->TextCodeDeltaY;
+        self::$SignatureRefBaseLoc = Java(self::$_className)->SignatureRefBaseLoc;
+        self::$TextCodeDeltaX = Java(self::$_className)->TextCodeDeltaX;
+        self::$ImageObjectBevel = Java(self::$_className)->ImageObjectBevel;
+        self::$CompositeAlpha = Java(self::$_className)->CompositeAlpha;
+        self::$OutlineElemActions = Java(self::$_className)->OutlineElemActions;
+        self::$CGTransformCodePosition = Java(self::$_className)->CGTransformCodePosition;
+        self::$PathLineWidth = Java(self::$_className)->PathLineWidth;
+        self::$ImageAlpha = Java(self::$_className)->ImageAlpha;
+        self::$DestinationType = Java(self::$_className)->DestinationType;
+        self::$CompositeGraphicUnitHeight = Java(self::$_className)->CompositeGraphicUnitHeight;
+        self::$ImageObjectActions = Java(self::$_className)->ImageObjectActions;
+        self::$TextObjectReadDirection = Java(self::$_className)->TextObjectReadDirection;
+        self::$PageAnnotationCreator = Java(self::$_className)->PageAnnotationCreator;
+        self::$RadialStartPoint = Java(self::$_className)->RadialStartPoint;
+        self::$ContentLayerImageObject = Java(self::$_className)->ContentLayerImageObject;
+        self::$PathObjectNonZero = Java(self::$_className)->PathObjectNonZero;
+        self::$ActionPo = Java(self::$_className)->ActionPo;
+        self::$PreferencesHideToolbar = Java(self::$_className)->PreferencesHideToolbar;
+        self::$PatternCellContentCompositeObject = Java(self::$_className)->PatternCellContentCompositeObject;
+        self::$ActionUriTarget = Java(self::$_className)->ActionUriTarget;
+        self::$ExtensionsExtension = Java(self::$_className)->ExtensionsExtension;
+        self::$DrawParamItemDashPattern = Java(self::$_className)->DrawParamItemDashPattern;
+        self::$ImageDashPattern = Java(self::$_className)->ImageDashPattern;
+        self::$CommonDataPageArea = Java(self::$_className)->CommonDataPageArea;
+        self::$DrawParamCap = Java(self::$_className)->DrawParamCap;
+        self::$AreaBleedBox = Java(self::$_className)->AreaBleedBox;
+        self::$CompositeObjectRound = Java(self::$_className)->CompositeObjectRound;
+        self::$DocBodyPermissions = Java(self::$_className)->DocBodyPermissions;
+        self::$CompositeObjectBoundary = Java(self::$_className)->CompositeObjectBoundary;
+        self::$DocVersionVersion = Java(self::$_className)->DocVersionVersion;
+        self::$ActionGotoDest = Java(self::$_className)->ActionGotoDest;
+        self::$PatternColumn = Java(self::$_className)->PatternColumn;
+        self::$PathObjectStrokeColor = Java(self::$_className)->PathObjectStrokeColor;
+        self::$PathObjectStroke = Java(self::$_className)->PathObjectStroke;
+        self::$DestinationBottom = Java(self::$_className)->DestinationBottom;
+        self::$DrawParamDashOffset = Java(self::$_className)->DrawParamDashOffset;
+        self::$RadialReflect = Java(self::$_className)->RadialReflect;
+        self::$PageActions = Java(self::$_className)->PageActions;
+        self::$PathObjectJoin = Java(self::$_className)->PathObjectJoin;
+        self::$RadialSegmentPosition = Java(self::$_className)->RadialSegmentPosition;
+        self::$DrawParamItemId = Java(self::$_className)->DrawParamItemId;
+        self::$Text200 = Java(self::$_className)->Text200;
+        self::$MultiMediaAudio = Java(self::$_className)->MultiMediaAudio;
+        self::$ExtensionAppName = Java(self::$_className)->ExtensionAppName;
+        self::$ImageVisible = Java(self::$_className)->ImageVisible;
+        self::$PageAnnotationLastModDate = Java(self::$_className)->PageAnnotationLastModDate;
+        self::$DestinationFit = Java(self::$_className)->DestinationFit;
+        self::$PermissionValidPeriod = Java(self::$_className)->PermissionValidPeriod;
+        self::$FontItemFamilyName = Java(self::$_className)->FontItemFamilyName;
+        self::$AnnotationAppearancePageBlock = Java(self::$_className)->AnnotationAppearancePageBlock;
+        self::$AxialSegmentPosition = Java(self::$_className)->AxialSegmentPosition;
+        self::$SignedInfoStampAnnot = Java(self::$_className)->SignedInfoStampAnnot;
+        self::$RegionAreaMove = Java(self::$_className)->RegionAreaMove;
+        self::$PermissionExport = Java(self::$_className)->PermissionExport;
+        self::$TextCharDirection = Java(self::$_className)->TextCharDirection;
+        self::$UnitCtm = Java(self::$_className)->UnitCtm;
+        self::$ColorSpaceItemId = Java(self::$_className)->ColorSpaceItemId;
+        self::$SignaturesMaxSignId = Java(self::$_className)->SignaturesMaxSignId;
+        self::$TextAlpha = Java(self::$_className)->TextAlpha;
+        self::$ActionGotoAAttachId = Java(self::$_className)->ActionGotoAAttachId;
+    }
+}
+
+class OfdLoadOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.OfdLoadOptions";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3896,15 +5796,11 @@ class OptimizedMemoryStream extends Java {
 }
 
 class OptimizedMemoryStream_SeekOrigin extends Java {
-    static private $_className = "com.aspose.pdf.php.OptimizedMemoryStream.SeekOrigin";
-    static $Begin = 0;
-    static $End = 2;
-    static $Current = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.OptimizedMemoryStream\$SeekOrigin";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class Option extends Java {
 	static private $_className = "com.aspose.pdf.php.Option";
 	function __construct(...$argv) {
@@ -3954,7 +5850,7 @@ class Page extends Java {
 	}
 }
 class Page_BeforePageGenerate extends Java {
-	static private $_className = "com.aspose.pdf.php.Page.BeforePageGenerate";
+	static private $_className = "com.aspose.pdf.php.Page\$BeforePageGenerate";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3972,16 +5868,19 @@ class PageCollection extends Java {
 	}
 }
 class PageCoordinateType extends Java {
-    static private $_className = "com.aspose.pdf.php.PageCoordinateType";
-    static $CropBox = 1;
-    static $MediaBox = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.PageCoordinateType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class PageInfo extends Java {
 	static private $_className = "com.aspose.pdf.php.PageInfo";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class PageInformationAnnotation extends Java {
+	static private $_className = "com.aspose.pdf.php.PageInformationAnnotation";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -3999,19 +5898,11 @@ class PageLabelCollection extends Java {
 	}
 }
 class PageLayout extends Java {
-    static private $_className = "com.aspose.pdf.php.PageLayout";
-    static $SinglePage = 0;
-    static $TwoColumnLeft = 2;
-    static $OneColumn = 1;
-    static $TwoPageRight = 5;
-    static $TwoPageLeft = 4;
-    static $TwoColumnRight = 3;
-    static $Default = 6;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.PageLayout";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class PageMarkup extends Java {
 	static private $_className = "com.aspose.pdf.php.PageMarkup";
 	function __construct(...$argv) {
@@ -4019,18 +5910,11 @@ class PageMarkup extends Java {
 	}
 }
 class PageMode extends Java {
-    static private $_className = "com.aspose.pdf.php.PageMode";
-    static $UseOutlines = 1;
-    static $UseThumbs = 2;
-    static $UseOC = 4;
-    static $UseAttachments = 5;
-    static $UseNone = 0;
-    static $FullScreen = 3;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.PageMode";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class PageNumberStamp extends Java {
 	static private $_className = "com.aspose.pdf.php.PageNumberStamp";
 	function __construct(...$argv) {
@@ -4051,6 +5935,12 @@ class ParagraphAbsorber extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class ParagraphAbsorberOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.ParagraphAbsorberOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class Paragraphs extends Java {
 	static private $_className = "com.aspose.pdf.php.Paragraphs";
 	function __construct(...$argv) {
@@ -4064,16 +5954,11 @@ class PasswordBoxField extends Java {
 	}
 }
 class PasswordType extends Java {
-    static private $_className = "com.aspose.pdf.php.PasswordType";
-    static $Owner = 2;
-    static $User = 1;
-    static $None = 0;
-    static $Inaccessible = 3;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.PasswordType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class PclLoadOptions extends Java {
 	static private $_className = "com.aspose.pdf.php.PclLoadOptions";
 	function __construct(...$argv) {
@@ -4081,7 +5966,7 @@ class PclLoadOptions extends Java {
 	}
 }
 class PclLoadOptions_ConversionEngines extends Java {
-    static private $_className = "com.aspose.pdf.php.PclLoadOptions.ConversionEngines";
+    static private $_className = "com.aspose.pdf.php.PclLoadOptions\$ConversionEngines";
     static $NewEngine = 1;
     static $LegacyEngine = 0;
     function __construct(...$argv) {
@@ -4090,15 +5975,11 @@ class PclLoadOptions_ConversionEngines extends Java {
 }
 
 class PDF3DActivation extends Java {
-    static private $_className = "com.aspose.pdf.php.PDF3DActivation";
-    static $activeWhenOpen = 0;
-    static $activeWhenVisible = 1;
-    static $activatedUserOrScriptAction = 2;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.PDF3DActivation";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class PDF3DAnnotation extends Java {
 	static private $_className = "com.aspose.pdf.php.PDF3DAnnotation";
 	function __construct(...$argv) {
@@ -4238,13 +6119,13 @@ class PdfASymbolicFontEncodingStrategy extends Java {
 	}
 }
 class PdfASymbolicFontEncodingStrategy_QueueItem extends Java {
-	static private $_className = "com.aspose.pdf.php.PdfASymbolicFontEncodingStrategy.QueueItem";
+	static private $_className = "com.aspose.pdf.php.PdfASymbolicFontEncodingStrategy\$QueueItem";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class PdfASymbolicFontEncodingStrategy_QueueItem_CMapEncodingTableType extends Java {
-    static private $_className = "com.aspose.pdf.php.PdfASymbolicFontEncodingStrategy.QueueItem.CMapEncodingTableType";
+    static private $_className = "com.aspose.pdf.php.PdfASymbolicFontEncodingStrategy.QueueItem\$CMapEncodingTableType";
     static $WindowsUnicodeTable = 0;
     static $WindowsSymbolicTable = 1;
     static $MacTable = 2;
@@ -4265,7 +6146,6 @@ class PdfFormat extends Java {
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
-
 }
 class PdfFormatConversionOptions extends Java {
 	static private $_className = "com.aspose.pdf.php.PdfFormatConversionOptions";
@@ -4274,7 +6154,7 @@ class PdfFormatConversionOptions extends Java {
 	}
 }
 class PdfFormatConversionOptions_SegmentAlignStrategy extends Java {
-    static private $_className = "com.aspose.pdf.php.PdfFormatConversionOptions.SegmentAlignStrategy";
+    static private $_className = "com.aspose.pdf.php.PdfFormatConversionOptions\$SegmentAlignStrategy";
     static $RestoreSegmentBounds = 1;
     static $None = 0;
     function __construct(...$argv) {
@@ -4283,7 +6163,7 @@ class PdfFormatConversionOptions_SegmentAlignStrategy extends Java {
 }
 
 class PdfFormatConversionOptions_PuaProcessingStrategy extends Java {
-    static private $_className = "com.aspose.pdf.php.PdfFormatConversionOptions.PuaProcessingStrategy";
+    static private $_className = "com.aspose.pdf.php.PdfFormatConversionOptions\$PuaProcessingStrategy";
     static $SubstitutePuaSymbols = 2;
     static $SurroundPuaTextWithEmptyActualText = 1;
     static $None = 0;
@@ -4293,7 +6173,7 @@ class PdfFormatConversionOptions_PuaProcessingStrategy extends Java {
 }
 
 class PdfFormatConversionOptions_RemoveFontsStrategy extends Java {
-    static private $_className = "com.aspose.pdf.php.PdfFormatConversionOptions.RemoveFontsStrategy";
+    static private $_className = "com.aspose.pdf.php.PdfFormatConversionOptions\$RemoveFontsStrategy";
     static $RemoveSimilarFontsWithDifferentWidths = 1;
     static $SubsetFonts = 2;
     static $RemoveDuplicatedFonts = 4;
@@ -4303,7 +6183,7 @@ class PdfFormatConversionOptions_RemoveFontsStrategy extends Java {
 }
 
 class PdfFormatConversionOptions_PdfANonSpecificationFlags extends Java {
-	static private $_className = "com.aspose.pdf.php.PdfFormatConversionOptions.PdfANonSpecificationFlags";
+	static private $_className = "com.aspose.pdf.php.PdfFormatConversionOptions\$PdfANonSpecificationFlags";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -4373,6 +6253,646 @@ class PKCS7Detached extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class plugins_DataType extends Java {
+    static private $_className = "com.aspose.pdf.php.plugins.DataType";
+    static $Stream = 1;
+    static $File = 0;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class plugins_form_FormOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.form.FormOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_form_SelectField extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.form.SelectField";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormAddField extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormAddField";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormCheckBoxFieldCreateOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormCheckBoxFieldCreateOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormCheckBoxFieldSetOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormCheckBoxFieldSetOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormComboBoxFieldCreateOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormComboBoxFieldCreateOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormComboBoxFieldSetOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormComboBoxFieldSetOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormEditor extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormEditor";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormEditorAddOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormEditorAddOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormEditorOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormEditorOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormEditorRemoveOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormEditorRemoveOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormEditorSetOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormEditorSetOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormFieldCreateOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormFieldCreateOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormFieldOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormFieldOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormFieldSetOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormFieldSetOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormRemoveAllFieldsOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormRemoveAllFieldsOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormRemoveSelectedFieldsOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormRemoveSelectedFieldsOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormTextBoxFieldCreateOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormTextBoxFieldCreateOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formeditor_FormTextBoxFieldSetOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formeditor.FormTextBoxFieldSetOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formexporter_FormExporter extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formexporter.FormExporter";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formexporter_FormExporterOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formexporter.FormExporterOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formexporter_FormExporterValuesToCsvOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formexporter.FormExporterValuesToCsvOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formflattener_FormFlattenAllFieldsOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formflattener.FormFlattenAllFieldsOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formflattener_FormFlattener extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formflattener.FormFlattener";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formflattener_FormFlattenerOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formflattener.FormFlattenerOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_formflattener_FormFlattenSelectedFieldsOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.formflattener.FormFlattenSelectedFieldsOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_IDataContainer extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.IDataContainer";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_IDataSource extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.IDataSource";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_imageextractor_ImageExtractor extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.imageextractor.ImageExtractor";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_imageextractor_ImageExtractorOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.imageextractor.ImageExtractorOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_implementations_FileDataSource extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.implementations.FileDataSource";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_implementations_FileResult extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.implementations.FileResult";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_implementations_ObjectResult extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.implementations.ObjectResult";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_implementations_PdfConverterOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.implementations.PdfConverterOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_implementations_StreamDataSource extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.implementations.StreamDataSource";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_implementations_StreamResult extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.implementations.StreamResult";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_implementations_StringResult extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.implementations.StringResult";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_IOperationResult extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.IOperationResult";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_IPlugin extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.IPlugin";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_IPluginOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.IPluginOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_ISaveInstruction extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.ISaveInstruction";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_merger_MergeOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.merger.MergeOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_merger_Merger extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.merger.Merger";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_optimizer_CompressOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.optimizer.CompressOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_optimizer_OptimizeOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.optimizer.OptimizeOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_optimizer_Optimizer extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.optimizer.Optimizer";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_optimizer_OrganizerBaseOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.optimizer.OrganizerBaseOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_optimizer_ResizeOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.optimizer.ResizeOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_optimizer_RotateOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.optimizer.RotateOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfa_PdfAConverter extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfa.PdfAConverter";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfa_PdfAConvertOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfa.PdfAConvertOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfa_PdfAOptionsBase extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfa.PdfAOptionsBase";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfa_PdfAStandardVersion extends Java {
+    static private $_className = "com.aspose.pdf.php.plugins.pdfa.PdfAStandardVersion";
+    static $Auto = 0;
+    static $PDF_A_2A = 3;
+    static $PDF_A_3B = 7;
+    static $PDF_A_1A = 1;
+    static $PDF_A_2B = 4;
+    static $PDF_A_3A = 6;
+    static $PDF_A_2U = 5;
+    static $PDF_A_1B = 2;
+    static $PDF_A_3U = 8;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class plugins_pdfa_PdfAValidateOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfa.PdfAValidateOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfa_PdfAValidationResult extends Java {
+    static private $_className = "com.aspose.pdf.php.plugins.pdfa.PdfAValidationResult";
+    static $StandardVersion;
+    static $DataSource;
+    static $IsValid;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+        self::$StandardVersion = Java(self::$_className)->StandardVersion;
+        self::$DataSource = Java(self::$_className)->DataSource;
+        self::$IsValid = Java(self::$_className)->IsValid;
+    }
+}
+
+class plugins_pdfdoc_ConversionMode extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfdoc.ConversionMode";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfdoc_PdfDoc extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfdoc.PdfDoc";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfdoc_PdfToDocOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfdoc.PdfToDocOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfdoc_SaveFormat extends Java {
+    static private $_className = "com.aspose.pdf.php.plugins.pdfdoc.SaveFormat";
+    static $DocX = 1;
+    static $Doc = 0;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class plugins_pdfextractor_PdfExtractor extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfextractor.PdfExtractor";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfextractor_PdfExtractorOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfextractor.PdfExtractorOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfgenerator_builder_TableBuilder extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfgenerator.builder.TableBuilder";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfgenerator_builder_TableCellBuilder extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfgenerator.builder.TableCellBuilder";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfgenerator_builder_TableRowBuilder extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfgenerator.builder.TableRowBuilder";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfgenerator_PdfGeneratorOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfgenerator.PdfGeneratorOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfgenerator_TableGenerator extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfgenerator.TableGenerator";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfgenerator_TableOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfgenerator.TableOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfgenerator_TocGenerator extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfgenerator.TocGenerator";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfgenerator_TocOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfgenerator.TocOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfhtml_HtmlToPdfOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfhtml.HtmlToPdfOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfhtml_PdfHtml extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfhtml.PdfHtml";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfhtml_PdfToHtmlOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfhtml.PdfToHtmlOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfhtml_PdfToHtmlOptions_SaveDataType extends Java {
+    static private $_className = "com.aspose.pdf.php.plugins.pdfhtml.PdfToHtmlOptions\$SaveDataType";
+    static $FileWithEmbeddedResources = 1;
+    static $StreamWithEmbeddedResources = 2;
+    static $FileWithExternalResources = 0;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class plugins_pdftoimage_Jpeg extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdftoimage.Jpeg";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdftoimage_JpegOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdftoimage.JpegOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdftoimage_PdfToImage extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdftoimage.PdfToImage";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdftoimage_PdfToImageOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdftoimage.PdfToImageOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdftoimage_PdfToImageOptions_ImageConversionMode extends Java {
+    static private $_className = "com.aspose.pdf.php.plugins.pdftoimage.PdfToImageOptions\$ImageConversionMode";
+    static $None = 0;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class plugins_pdftoimage_Png extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdftoimage.Png";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdftoimage_PngOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdftoimage.PngOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdftoimage_Tiff extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdftoimage.Tiff";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdftoimage_TiffOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdftoimage.TiffOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfxls_PdfToXlsOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfxls.PdfToXlsOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfxls_PdfToXlsOptions_ExcelFormat extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfxls.PdfToXlsOptions\$ExcelFormat";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_pdfxls_PdfXls extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.pdfxls.PdfXls";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_Plugin extends Java {
+    static private $_className = "com.aspose.pdf.php.plugins.Plugin";
+    static $FormFlattener = 5;
+    static $XlsConverter = 2;
+    static $Splitter = 12;
+    static $FormExporter = 4;
+    static $Optimizer = 10;
+    static $Png = 11;
+    static $Html = 6;
+    static $Jpeg = 8;
+    static $TableGenerator = 13;
+    static $TocGenerator = 15;
+    static $Security = 19;
+    static $FormEditor = 3;
+    static $DocConverter = 16;
+    static $Merger = 9;
+    static $ChatGpt = 1;
+    static $TextExtractor = 14;
+    static $ImageExtractor = 7;
+    static $None = 0;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
+class plugins_ResultContainer extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.ResultContainer";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_security_DecryptionOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.security.DecryptionOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_security_EncryptionOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.security.EncryptionOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_security_Security extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.security.Security";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_signature_Signature extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.signature.Signature";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_signature_SignOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.signature.SignOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_splitter_SplitOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.splitter.SplitOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_splitter_Splitter extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.splitter.Splitter";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_textextractor_TextExtractor extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.textextractor.TextExtractor";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_textextractor_TextExtractorOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.plugins.textextractor.TextExtractorOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class plugins_textextractor_TextExtractorOptions_TextFormattingMode extends Java {
+    static private $_className = "com.aspose.pdf.php.plugins.textextractor.TextExtractorOptions\$TextFormattingMode";
+    static $Plain = 2;
+    static $Raw = 1;
+    static $Pure = 0;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
 class Point extends Java {
 	static private $_className = "com.aspose.pdf.php.Point";
 	function __construct(...$argv) {
@@ -4398,16 +6918,11 @@ class PolygonAnnotation extends Java {
 	}
 }
 class PolyIntent extends Java {
-    static private $_className = "com.aspose.pdf.php.PolyIntent";
-    static $Undefined = 0;
-    static $PolygonDimension = 3;
-    static $PolygonCloud = 1;
-    static $PolyLineDimension = 2;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.PolyIntent";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class PolylineAnnotation extends Java {
 	static private $_className = "com.aspose.pdf.php.PolylineAnnotation";
 	function __construct(...$argv) {
@@ -4433,83 +6948,11 @@ class PptxSaveOptions extends Java {
 	}
 }
 class PredefinedAction extends Java {
-    static private $_className = "com.aspose.pdf.php.PredefinedAction";
-    static $View_NavigationPanels_Fields = 39;
-    static $View_PageDisplay_SinglePageContinuous = 45;
-    static $File_Properties = 26;
-    static $View_PageDisplay_TwoUpContinuous = 47;
-    static $View_GoTo_Page = 32;
-    static $Edit_Preferences = 17;
-    static $View_GoTo_PreDocument = 33;
-    static $File_Close = 20;
-    static $View_Toolbars_Forms = 53;
-    static $Print = 5;
-    static $View_Toolbars_Find = 52;
-    static $View_GoTo_NextView = 31;
-    static $View_NavigationPanels_Articles = 35;
-    static $View_PageDisplay_SinglePage = 44;
-    static $File_Print = 25;
-    static $Document_ReplacePages = 13;
-    static $Window_FullScreenMode = 70;
-    static $View_Zoom_FitHeight = 65;
-    static $View_Zoom_ActualSize = 64;
-    static $Document_AttachFile = 8;
-    static $Bookmarks_ExpanCurrentBookmark = 6;
-    static $View_Zoom_FitVisible = 67;
-    static $View_NavigationPanels_Signatures = 43;
-    static $View_Toolbars_CommentMarkup = 49;
-    static $File_Organizer_OpenOrganizer = 24;
-    static $File_CreatePDF_FromScanner = 21;
-    static $View_Toolbars_Tasks = 62;
-    static $File_CreatePDF_FromWebPage = 22;
-    static $View_Toolbars_Redaction = 60;
-    static $View_NavigationPanels_Comments = 38;
-    static $View_PageDisplay_TwoUp = 46;
-    static $Document_ExtractPages = 11;
-    static $View_NavigationPanels_Attachments = 36;
-    static $LastPage = 1;
-    static $Edit_Search = 18;
-    static $View_Toolbars_Edit = 50;
-    static $View_GoTo_PreView = 34;
-    static $View_Toolbars_AdvanceEditing = 48;
-    static $View_Toolbars_ObjectData = 55;
-    static $View_Toolbars_PropertiesBar = 59;
-    static $View_NavigationPanels_Layers = 40;
-    static $File_SaveAs = 27;
-    static $View_NavigationPanels_Boomarks = 37;
-    static $File_AttachToEmail = 19;
-    static $Miscellaneous_ZoomIn = 28;
-    static $PageImages_PrintPages = 30;
-    static $View_Toolbars_PrintProduction = 58;
-    static $View_NavigationPanels_ModelTree = 41;
-    static $View_NavigationPanels_Pages = 42;
-    static $View_Zoom_ZoomTo = 69;
-    static $Document_CropPages = 9;
-    static $View_Toolbars_PageDisplay = 56;
-    static $Document_RotatePages = 14;
-    static $View_Toolbars_File = 51;
-    static $PrevPage = 3;
-    static $View_Toolbars_PageNavigation = 57;
-    static $FirstPage = 0;
-    static $PrintDialog = 4;
-    static $File_Exit = 23;
-    static $Edit_Find = 16;
-    static $Document_DeletePages = 10;
-    static $View_Toolbars_SelectZoom = 61;
-    static $Document_InsertPages = 12;
-    static $View_Zoom_FitPage = 66;
-    static $Bookmarks_HightlightCurrentBookmark = 7;
-    static $View_Toolbars_Typewriter = 63;
-    static $View_Zoom_FitWidth = 68;
-    static $View_Toolbars_Measuring = 54;
-    static $NextPage = 2;
-    static $Miscellaneous_ZoomOut = 29;
-    static $Edit_CheckSpelling_InComFieldEdit = 15;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.PredefinedAction";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class PrintController extends Java {
 	static private $_className = "com.aspose.pdf.php.PrintController";
 	function __construct(...$argv) {
@@ -4532,6 +6975,57 @@ class PrinterMarkAnnotation extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class PrinterMarkCornerPosition extends Java {
+	static private $_className = "com.aspose.pdf.php.PrinterMarkCornerPosition";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class PrinterMarkSidePosition extends Java {
+	static private $_className = "com.aspose.pdf.php.PrinterMarkSidePosition";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class PrinterMarksKind extends Java {
+    static private $_className = "com.aspose.pdf.php.PrinterMarksKind";
+    static $All;
+    static $RegistrationMarks;
+    static $BleedMarks;
+    static $PageInformation;
+    static $TrimMarks;
+    static $None = 0;
+    static $ColorBars;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+        self::$All = Java(self::$_className)->All;
+        self::$RegistrationMarks = Java(self::$_className)->RegistrationMarks;
+        self::$BleedMarks = Java(self::$_className)->BleedMarks;
+        self::$PageInformation = Java(self::$_className)->PageInformation;
+        self::$TrimMarks = Java(self::$_className)->TrimMarks;
+        self::$ColorBars = Java(self::$_className)->ColorBars;
+    }
+}
+
+class PrinterMarksKindExtensions extends Java {
+	static private $_className = "com.aspose.pdf.php.PrinterMarksKindExtensions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class printing_CustomPrintEventArgs extends Java {
+    static private $_className = "com.aspose.pdf.php.printing.CustomPrintEventArgs";
+    static $PrinterSettings;
+    static $PageSettings;
+    static $FileName;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+        self::$PrinterSettings = Java(self::$_className)->PrinterSettings;
+        self::$PageSettings = Java(self::$_className)->PageSettings;
+        self::$FileName = Java(self::$_className)->FileName;
+    }
+}
+
 class printing_DuplexKind extends Java {
     static private $_className = "com.aspose.pdf.php.printing.DuplexKind";
     static $Simplex;
@@ -5109,6 +7603,7 @@ class printing_PrintPaperSourceKind extends Java {
     static $FormSource;
     static $ManualFeed;
     static $LargeCapacity;
+    static $AutomaticFeed;
     function __construct(...$argv) {
         parent::__construct(self::$_className, ...$argv);
         self::$Upper = Java(self::$_className)->Upper;
@@ -5125,6 +7620,40 @@ class printing_PrintPaperSourceKind extends Java {
         self::$FormSource = Java(self::$_className)->FormSource;
         self::$ManualFeed = Java(self::$_className)->ManualFeed;
         self::$LargeCapacity = Java(self::$_className)->LargeCapacity;
+        self::$AutomaticFeed = Java(self::$_className)->AutomaticFeed;
+    }
+}
+
+class printing_PrintPaperSources extends Java {
+    static private $_className = "com.aspose.pdf.php.printing.PrintPaperSources";
+    static $Upper;
+    static $Lower;
+    static $SmallFormat;
+    static $Manual;
+    static $Envelope;
+    static $Middle;
+    static $Cassette;
+    static $TractorFeed;
+    static $ManualFeedEnvelope;
+    static $LargeFormat;
+    static $FormSource;
+    static $LargeCapacity;
+    static $AutomaticFeed;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+        self::$Upper = Java(self::$_className)->Upper;
+        self::$Lower = Java(self::$_className)->Lower;
+        self::$SmallFormat = Java(self::$_className)->SmallFormat;
+        self::$Manual = Java(self::$_className)->Manual;
+        self::$Envelope = Java(self::$_className)->Envelope;
+        self::$Middle = Java(self::$_className)->Middle;
+        self::$Cassette = Java(self::$_className)->Cassette;
+        self::$TractorFeed = Java(self::$_className)->TractorFeed;
+        self::$ManualFeedEnvelope = Java(self::$_className)->ManualFeedEnvelope;
+        self::$LargeFormat = Java(self::$_className)->LargeFormat;
+        self::$FormSource = Java(self::$_className)->FormSource;
+        self::$LargeCapacity = Java(self::$_className)->LargeCapacity;
+        self::$AutomaticFeed = Java(self::$_className)->AutomaticFeed;
     }
 }
 
@@ -5186,6 +7715,12 @@ class Redaction extends Java {
 }
 class RedactionAnnotation extends Java {
 	static private $_className = "com.aspose.pdf.php.RedactionAnnotation";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class RegistrationMarkAnnotation extends Java {
+	static private $_className = "com.aspose.pdf.php.RegistrationMarkAnnotation";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5253,15 +7788,11 @@ class RenditionType extends Java {
 }
 
 class ReplyType extends Java {
-    static private $_className = "com.aspose.pdf.php.ReplyType";
-    static $Undefined = 0;
-    static $Group = 2;
-    static $Reply = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.ReplyType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class Resources extends Java {
 	static private $_className = "com.aspose.pdf.php.Resources";
 	function __construct(...$argv) {
@@ -5269,7 +7800,7 @@ class Resources extends Java {
 	}
 }
 class Resources_ExtGStateValue extends Java {
-	static private $_className = "com.aspose.pdf.php.Resources.ExtGStateValue";
+	static private $_className = "com.aspose.pdf.php.Resources\$ExtGStateValue";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5293,7 +7824,7 @@ class RichMediaAnnotation extends Java {
 	}
 }
 class RichMediaAnnotation_ContentType extends Java {
-    static private $_className = "com.aspose.pdf.php.RichMediaAnnotation.ContentType";
+    static private $_className = "com.aspose.pdf.php.RichMediaAnnotation\$ContentType";
     static $Unknown = 2;
     static $Video = 1;
     static $Audio = 0;
@@ -5303,7 +7834,7 @@ class RichMediaAnnotation_ContentType extends Java {
 }
 
 class RichMediaAnnotation_ActivationEvent extends Java {
-    static private $_className = "com.aspose.pdf.php.RichMediaAnnotation.ActivationEvent";
+    static private $_className = "com.aspose.pdf.php.RichMediaAnnotation\$ActivationEvent";
     static $PageVisible = 2;
     static $Click = 0;
     static $PageOpen = 1;
@@ -5325,17 +7856,11 @@ class RootElement extends Java {
 	}
 }
 class Rotation extends Java {
-    static private $_className = "com.aspose.pdf.php.Rotation";
-    static $on360 = 4;
-    static $on90 = 1;
-    static $on270 = 3;
-    static $on180 = 2;
-    static $None = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.Rotation";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class Row extends Java {
 	static private $_className = "com.aspose.pdf.php.Row";
 	function __construct(...$argv) {
@@ -5361,56 +7886,43 @@ class SaveOptions extends Java {
 	}
 }
 class SaveOptions_HtmlBorderLineType extends Java {
-    static private $_className = "com.aspose.pdf.php.SaveOptions.HtmlBorderLineType";
-    static $Outset = 8;
-    static $Inset = 7;
-    static $Dotted = 1;
-    static $Dashed = 2;
-    static $Groove = 5;
-    static $None = 0;
-    static $Double = 4;
-    static $Solid = 3;
-    static $Ridge = 6;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.SaveOptions\$HtmlBorderLineType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class SaveOptions_BorderPartStyle extends Java {
-	static private $_className = "com.aspose.pdf.php.SaveOptions.BorderPartStyle";
+	static private $_className = "com.aspose.pdf.php.SaveOptions\$BorderPartStyle";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class SaveOptions_BorderInfo extends Java {
-	static private $_className = "com.aspose.pdf.php.SaveOptions.BorderInfo";
+	static private $_className = "com.aspose.pdf.php.SaveOptions\$BorderInfo";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class SaveOptions_MarginInfo extends Java {
-	static private $_className = "com.aspose.pdf.php.SaveOptions.MarginInfo";
+	static private $_className = "com.aspose.pdf.php.SaveOptions\$MarginInfo";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class SaveOptions_MarginPartStyle extends Java {
-	static private $_className = "com.aspose.pdf.php.SaveOptions.MarginPartStyle";
+	static private $_className = "com.aspose.pdf.php.SaveOptions\$MarginPartStyle";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class SaveOptions_NodeLevelResourceType extends Java {
-    static private $_className = "com.aspose.pdf.php.SaveOptions.NodeLevelResourceType";
-    static $Image = 0;
-    static $Font = 1;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.SaveOptions\$NodeLevelResourceType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class SaveOptions_ResourceSavingInfo extends Java {
-	static private $_className = "com.aspose.pdf.php.SaveOptions.ResourceSavingInfo";
+	static private $_className = "com.aspose.pdf.php.SaveOptions\$ResourceSavingInfo";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5453,12 +7965,6 @@ class Signature extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
-class Signature_SignHash extends Java {
-	static private $_className = "com.aspose.pdf.php.Signature.SignHash";
-	function __construct(...$argv) {
-		parent::__construct(self::$_className, ...$argv);
-	}
-}
 class SignatureCustomAppearance extends Java {
 	static private $_className = "com.aspose.pdf.php.SignatureCustomAppearance";
 	function __construct(...$argv) {
@@ -5467,6 +7973,12 @@ class SignatureCustomAppearance extends Java {
 }
 class SignatureField extends Java {
 	static private $_className = "com.aspose.pdf.php.SignatureField";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class SignHash extends Java {
+	static private $_className = "com.aspose.pdf.php.SignHash";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -5648,7 +8160,7 @@ class SvgLoadOptions extends Java {
 	}
 }
 class SvgLoadOptions_ConversionEngines extends Java {
-    static private $_className = "com.aspose.pdf.php.SvgLoadOptions.ConversionEngines";
+    static private $_className = "com.aspose.pdf.php.SvgLoadOptions\$ConversionEngines";
     static $NewEngine = 1;
     static $LegacyEngine = 0;
     function __construct(...$argv) {
@@ -5663,26 +8175,19 @@ class SvgSaveOptions extends Java {
 	}
 }
 class SvgSaveOptions_EmbeddedImagesSavingStrategy extends Java {
-	static private $_className = "com.aspose.pdf.php.SvgSaveOptions.EmbeddedImagesSavingStrategy";
+	static private $_className = "com.aspose.pdf.php.SvgSaveOptions\$EmbeddedImagesSavingStrategy";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class SvgSaveOptions_SvgExternalImageType extends Java {
-    static private $_className = "com.aspose.pdf.php.SvgSaveOptions.SvgExternalImageType";
-    static $Tiff = 4;
-    static $Bmp = 2;
-    static $Unknown = 5;
-    static $Gif = 3;
-    static $Png = 1;
-    static $Jpeg = 0;
-    function __construct(...$argv) {
-        parent::__construct(self::$_className, ...$argv);
-    }
+	static private $_className = "com.aspose.pdf.php.SvgSaveOptions\$SvgExternalImageType";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
 }
-
 class SvgSaveOptions_SvgImageSavingInfo extends Java {
-	static private $_className = "com.aspose.pdf.php.SvgSaveOptions.SvgImageSavingInfo";
+	static private $_className = "com.aspose.pdf.php.SvgSaveOptions\$SvgImageSavingInfo";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6622,6 +9127,18 @@ class tex_TeXFileSystemOutputDirectory extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class tex_TeXLoadResult extends Java {
+    static private $_className = "com.aspose.pdf.php.tex.TeXLoadResult";
+    static $Spotless = 1;
+    static $FatalErrorStop = 4;
+    static $WarningIssued = 2;
+    static $NotExecuted = 0;
+    static $ErrorMessageIssued = 3;
+    function __construct(...$argv) {
+        parent::__construct(self::$_className, ...$argv);
+    }
+}
+
 class TeXFragment extends Java {
 	static private $_className = "com.aspose.pdf.php.TeXFragment";
 	function __construct(...$argv) {
@@ -6653,7 +9170,7 @@ class text_CustomFontSubstitutionBase extends Java {
 	}
 }
 class text_CustomFontSubstitutionBase_OriginalFontSpecification extends Java {
-	static private $_className = "com.aspose.pdf.php.text.CustomFontSubstitutionBase.OriginalFontSpecification";
+	static private $_className = "com.aspose.pdf.php.text.CustomFontSubstitutionBase\$OriginalFontSpecification";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6760,7 +9277,7 @@ class TextDefaults extends Java {
 	}
 }
 class TextDefaults_DefaultFontStrategy extends Java {
-    static private $_className = "com.aspose.pdf.php.TextDefaults.DefaultFontStrategy";
+    static private $_className = "com.aspose.pdf.php.TextDefaults\$DefaultFontStrategy";
     static $SystemFont = 0;
     static $PredefinedFont = 1;
     static $TheFirstSuitableFoundFont = 3;
@@ -6772,6 +9289,30 @@ class TextDefaults_DefaultFontStrategy extends Java {
 
 class TextEditOptions extends Java {
 	static private $_className = "com.aspose.pdf.php.TextEditOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class TextEditOptions_NoCharacterAction extends Java {
+	static private $_className = "com.aspose.pdf.php.TextEditOptions\$NoCharacterAction";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class TextEditOptions_FontReplace extends Java {
+	static private $_className = "com.aspose.pdf.php.TextEditOptions\$FontReplace";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class TextEditOptions_LanguageTransformation extends Java {
+	static private $_className = "com.aspose.pdf.php.TextEditOptions\$LanguageTransformation";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class TextEditOptions_ClippingPathsProcessingMode extends Java {
+	static private $_className = "com.aspose.pdf.php.TextEditOptions\$ClippingPathsProcessingMode";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -6807,7 +9348,7 @@ class TextExtractionOptions extends Java {
 	}
 }
 class TextExtractionOptions_TextFormattingMode extends Java {
-    static private $_className = "com.aspose.pdf.php.TextExtractionOptions.TextFormattingMode";
+    static private $_className = "com.aspose.pdf.php.TextExtractionOptions\$TextFormattingMode";
     static $Flatten = 2;
     static $Raw = 1;
     static $MemorySaving = 3;
@@ -6824,7 +9365,7 @@ class TextFormattingOptions extends Java {
 	}
 }
 class TextFormattingOptions_WordWrapMode extends Java {
-    static private $_className = "com.aspose.pdf.php.TextFormattingOptions.WordWrapMode";
+    static private $_className = "com.aspose.pdf.php.TextFormattingOptions\$WordWrapMode";
     static $DiscretionaryHyphenation = 1;
     static $ByWords = 2;
     static $Undefined = 3;
@@ -6835,7 +9376,7 @@ class TextFormattingOptions_WordWrapMode extends Java {
 }
 
 class TextFormattingOptions_LineSpacingMode extends Java {
-    static private $_className = "com.aspose.pdf.php.TextFormattingOptions.LineSpacingMode";
+    static private $_className = "com.aspose.pdf.php.TextFormattingOptions\$LineSpacingMode";
     static $FontSize = 0;
     static $FullSize = 1;
     function __construct(...$argv) {
@@ -6910,7 +9451,7 @@ class TextParagraph extends Java {
 	}
 }
 class TextParagraph_TextBackgroundMode extends Java {
-    static private $_className = "com.aspose.pdf.php.TextParagraph.TextBackgroundMode";
+    static private $_className = "com.aspose.pdf.php.TextParagraph\$TextBackgroundMode";
     static $WholeParagraph = 0;
     static $LogicalLine = 1;
     function __construct(...$argv) {
@@ -6947,6 +9488,18 @@ class TextRenderingMode extends Java {
 
 class TextReplaceOptions extends Java {
 	static private $_className = "com.aspose.pdf.php.TextReplaceOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class TextReplaceOptions_Scope extends Java {
+	static private $_className = "com.aspose.pdf.php.TextReplaceOptions\$Scope";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class TextReplaceOptions_ReplaceAdjustment extends Java {
+	static private $_className = "com.aspose.pdf.php.TextReplaceOptions\$ReplaceAdjustment";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -7009,6 +9562,12 @@ class ToUnicodeProcessingRules extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class TrimMarkAnnotation extends Java {
+	static private $_className = "com.aspose.pdf.php.TrimMarkAnnotation";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class TxtLoadOptions extends Java {
 	static private $_className = "com.aspose.pdf.php.TxtLoadOptions";
 	function __construct(...$argv) {
@@ -7028,13 +9587,13 @@ class UnifiedSaveOptions extends Java {
 	}
 }
 class UnifiedSaveOptions_ProgressEventHandlerInfo extends Java {
-	static private $_className = "com.aspose.pdf.php.UnifiedSaveOptions.ProgressEventHandlerInfo";
+	static private $_className = "com.aspose.pdf.php.UnifiedSaveOptions\$ProgressEventHandlerInfo";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
 class UnifiedSaveOptions_ConversionProgressEventHandler extends Java {
-	static private $_className = "com.aspose.pdf.php.UnifiedSaveOptions.ConversionProgressEventHandler";
+	static private $_className = "com.aspose.pdf.php.UnifiedSaveOptions\$ConversionProgressEventHandler";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -7075,6 +9634,24 @@ class utils_publicdata_ICosPdfPrimitive extends Java {
 		parent::__construct(self::$_className, ...$argv);
 	}
 }
+class vector_extraction_SubPathGroup extends Java {
+	static private $_className = "com.aspose.pdf.php.vector.extraction.SubPathGroup";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class vector_extraction_SvgExtractionOptions extends Java {
+	static private $_className = "com.aspose.pdf.php.vector.extraction.SvgExtractionOptions";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class vector_extraction_SvgExtractor extends Java {
+	static private $_className = "com.aspose.pdf.php.vector.extraction.SvgExtractor";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
 class vector_GraphicElement extends Java {
 	static private $_className = "com.aspose.pdf.php.vector.GraphicElement";
 	function __construct(...$argv) {
@@ -7089,6 +9666,12 @@ class vector_GraphicElementCollection extends Java {
 }
 class vector_GraphicsAbsorber extends Java {
 	static private $_className = "com.aspose.pdf.php.vector.GraphicsAbsorber";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class vector_GraphicState extends Java {
+	static private $_className = "com.aspose.pdf.php.vector.GraphicState";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -7113,6 +9696,12 @@ class VerticalAlignment extends Java {
 }
 class WarningCallback extends Java {
 	static private $_className = "com.aspose.pdf.php.WarningCallback";
+	function __construct(...$argv) {
+		parent::__construct(self::$_className, ...$argv);
+	}
+}
+class WarningCallback_ReturnAction extends Java {
+	static private $_className = "com.aspose.pdf.php.WarningCallback\$ReturnAction";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -7210,7 +9799,7 @@ class XImage extends Java {
 	}
 }
 class XImage_RawParameters extends Java {
-	static private $_className = "com.aspose.pdf.php.XImage.RawParameters";
+	static private $_className = "com.aspose.pdf.php.XImage\$RawParameters";
 	function __construct(...$argv) {
 		parent::__construct(self::$_className, ...$argv);
 	}
@@ -7346,7 +9935,7 @@ class XslFoLoadOptions extends Java {
 	}
 }
 class XslFoLoadOptions_ParsingErrorsHandlingTypes extends Java {
-    static private $_className = "com.aspose.pdf.php.XslFoLoadOptions.ParsingErrorsHandlingTypes";
+    static private $_className = "com.aspose.pdf.php.XslFoLoadOptions\$ParsingErrorsHandlingTypes";
     static $TryIgnore = 0;
     static $InvokeCustomHandler = 2;
     static $ThrowExceptionImmediately = 1;
